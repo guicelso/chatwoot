@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Omlouváme se, konverzaci nelze najít. Zkuste to prosím znovu",
     "SELECT_A_CONVERSATION": "Vyberte prosím konverzaci z levého panelu",
     "CSAT_REPLY_MESSAGE": "Ohodnoťte prosím konverzaci",
-    "404": "Omlouváme se, konverzaci nelze najít. Zkuste to prosím znovu",
     "SWITCH_VIEW_LAYOUT": "Přepnout rozložení",
     "DASHBOARD_APP_TAB_MESSAGES": "Zprávy",
     "UNVERIFIED_SESSION": "Identita tohoto uživatele není ověřena",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Podpis zprávy není nakonfigurován, prosím nakonfigurujte jej v nastavení profilu.",
-      "COPILOT_MSG_INPUT": "Dejte copilotu další podněty nebo se zeptejte na cokoliv dalšího... Stiskněte Enter pro odeslání pokračování",
+      "COPILOT_MSG_INPUT": "Dejte Lumia AIu další podněty nebo se zeptejte na cokoliv dalšího... Stiskněte Enter pro odeslání pokračování",
       "CLICK_HERE": "Klikněte zde pro aktualizaci",
       "WHATSAPP_TEMPLATES": "Whatsapp Templates"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Přetažením sem připojíte",
       "START_AUDIO_RECORDING": "Spustit nahrávání zvuku",
       "STOP_AUDIO_RECORDING": "Zastavit nahrávání zvuku",
-      "COPILOT_THINKING": "Copilot přemýšlí",
+      "COPILOT_THINKING": "Lumia AI přemýšlí",
       "EMAIL_HEAD": {
         "TO": "TO",
         "ADD_BCC": "Přidat bcc",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "Contact",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Incoming call",

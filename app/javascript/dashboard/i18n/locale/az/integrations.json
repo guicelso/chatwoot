@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Captain hesabınızda aktiv deyil.",
+      "DISABLED": "Lumia AI hesabınızda aktiv deyil.",
       "CLICK_HERE_TO_CONFIGURE": "Konfiqurasiya etmək üçün bura klikləyin",
-      "LOADING_CONSOLE": "Captain Konsolu yüklənir...",
-      "FAILED_TO_LOAD_CONSOLE": "Captain Konsolu yüklənmədi. Zəhmət olmasa səhifəni yeniləyin və yenidən cəhd edin."
+      "LOADING_CONSOLE": "Lumia AI Konsolu yüklənir...",
+      "FAILED_TO_LOAD_CONSOLE": "Lumia AI Konsolu yüklənmədi. Zəhmət olmasa səhifəni yeniləyin və yenidən cəhd edin."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Abunə olunan hadisələr",
@@ -182,7 +182,7 @@
         "GRAMMAR": "Fix grammar & spelling",
         "SUGGESTION": "Cavab təklifi ver",
         "SUMMARIZE": "Söhbətin xülasəsini çıxarın",
-        "ASK_COPILOT": "Ask Copilot"
+        "ASK_COPILOT": "Ask Lumia AI"
       },
       "ASSISTANCE_MODAL": {
         "DRAFT_TITLE": "Qaralama məzmunu",
@@ -389,7 +389,7 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Captain",
+    "NAME": "Lumia AI",
     "HEADER_KNOW_MORE": "Daha ətraflı",
     "ASSISTANT_SWITCHER": {
       "ASSISTANTS": "Köməkçilər",
@@ -398,13 +398,13 @@
       "EMPTY_LIST": "Assistent tapılmadı, başlamaq üçün birini yaradın"
     },
     "COPILOT": {
-      "TITLE": "Copilot",
+      "TITLE": "Lumia AI",
       "TRY_THESE_PROMPTS": "Bu təklifləri yoxlayın",
-      "PANEL_TITLE": "Copilot ilə başlayın",
-      "KICK_OFF_MESSAGE": "Qısa xülasəyə ehtiyacınız var, əvvəlki söhbətlərə baxmaq istəyirsiniz, yoxsa daha yaxşı cavab hazırlamaq istəyirsiniz? Copilot işləri sürətləndirmək üçün buradadır.",
+      "PANEL_TITLE": "Lumia AI ilə başlayın",
+      "KICK_OFF_MESSAGE": "Qısa xülasəyə ehtiyacınız var, əvvəlki söhbətlərə baxmaq istəyirsiniz, yoxsa daha yaxşı cavab hazırlamaq istəyirsiniz? Lumia AI işləri sürətləndirmək üçün buradadır.",
       "SEND_MESSAGE": "Mesaj göndərin...",
       "EMPTY_MESSAGE": "Cavab yaradılarkən xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.",
-      "LOADER": "Captain düşünür",
+      "LOADER": "Lumia AI düşünür",
       "YOU": "Siz",
       "USE": "Bunu istifadə et",
       "RESET": "Sıfırla",
@@ -439,23 +439,23 @@
       "MESSAGE_PLACEHOLDER": "Mesajınızı yazın...",
       "HEADER": "Sınaq sahəsi",
       "DESCRIPTION": "Bu sınaq sahəsində köməkçinizə mesaj göndərin və cavabların dəqiq, sürətli və istədiyiniz tonda olub-olmadığını yoxlayın.",
-      "CREDIT_NOTE": "Burada göndərilən mesajlar Captain kreditlərinizdən çıxılacaq."
+      "CREDIT_NOTE": "Burada göndərilən mesajlar Lumia AI kreditlərinizdən çıxılacaq."
     },
     "PAYWALL": {
-      "TITLE": "Captain AI istifadə etmək üçün yüksəldin",
-      "AVAILABLE_ON": "Captain pulsuz planda mövcud deyil.",
-      "UPGRADE_PROMPT": "Assistentlərimizə, copilot və daha çoxuna çıxış əldə etmək üçün planınızı yüksəldin.",
+      "TITLE": "Lumia AI istifadə etmək üçün yüksəldin",
+      "AVAILABLE_ON": "Lumia AI pulsuz planda mövcud deyil.",
+      "UPGRADE_PROMPT": "Assistentlərimizə, Lumia AI və daha çoxuna çıxış əldə etmək üçün planınızı yüksəldin.",
       "UPGRADE_NOW": "İndi yüksəlt",
       "CANCEL_ANYTIME": "Planınızı istənilən vaxt dəyişə və ya ləğv edə bilərsiniz"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Captain AI yalnız Enterprise planlarında mövcuddur.",
-      "UPGRADE_PROMPT": "Assistentlərimizə, copilot və daha çoxuna çıxış əldə etmək üçün planınızı yüksəldin.",
+      "AVAILABLE_ON": "Lumia AI yalnız Enterprise planlarında mövcuddur.",
+      "UPGRADE_PROMPT": "Assistentlərimizə, Lumia AI və daha çoxuna çıxış əldə etmək üçün planınızı yüksəldin.",
       "ASK_ADMIN": "Təkmilləşdirmə üçün administratorunuzla əlaqə saxlayın."
     },
     "BANNER": {
-      "RESPONSES": "Cavab limitinizin 80%-dən çoxunu istifadə etmisiniz. Captain AI-dan istifadə etməyə davam etmək üçün zəhmət olmasa tarifinizi yüksəldin.",
-      "DOCUMENTS": "Sənəd limiti çatdı. Captain AI-dan istifadəni davam etdirmək üçün yüksəldin."
+      "RESPONSES": "Cavab limitinizin 80%-dən çoxunu istifadə etmisiniz. Lumia AI-dan istifadə etməyə davam etmək üçün zəhmət olmasa tarifinizi yüksəldin.",
+      "DOCUMENTS": "Sənəd limiti çatdı. Lumia AI-dan istifadəni davam etdirmək üçün yüksəldin."
     },
     "FORM": {
       "CANCEL": "Ləğv et",
@@ -576,8 +576,8 @@
         "TITLE": "Assistent yoxdur",
         "SUBTITLE": "İstifadəçilərinizə sürətli və dəqiq cavablar vermək üçün köməkçi yaradın. O, yardım məqalələrinizdən və əvvəlki söhbətlərdən öyrənə bilər.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistent",
-          "NOTE": "Captain Assistent birbaşa müştərilərlə ünsiyyət qurur, kömək sənədlərinizdən və keçmiş söhbətlərdən öyrənir və dərhal, dəqiq cavablar verir. O, ilkin sorğuları idarə edir və lazım olduqda agentə ötürür."
+          "TITLE": "Lumia AI Assistent",
+          "NOTE": "Lumia AI Assistent birbaşa müştərilərlə ünsiyyət qurur, kömək sənədlərinizdən və keçmiş söhbətlərdən öyrənir və dərhal, dəqiq cavablar verir. O, ilkin sorğuları idarə edir və lazım olduqda agentə ötürür."
         }
       },
       "GUARDRAILS": {
@@ -798,8 +798,8 @@
         "TITLE": "Sənəd yoxdur",
         "SUBTITLE": "Sənədlər assistentiniz tərəfindən FAQ-lar yaratmaq üçün istifadə olunur. Assistentinizə kontekst vermək üçün sənədləri əlavə edə bilərsiniz.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Sənəd",
-          "NOTE": "Captain-da sənəd assistent üçün bilik mənbəyi rolunu oynayır. Kömək mərkəzinizi və ya təlimatları bağlayaraq, Captain məzmunu analiz edə və müştəri sorğuları üçün dəqiq cavablar verə bilər."
+          "TITLE": "Lumia AI Sənəd",
+          "NOTE": "Lumia AI-da sənəd assistent üçün bilik mənbəyi rolunu oynayır. Kömək mərkəzinizi və ya təlimatları bağlayaraq, Lumia AI məzmunu analiz edə və müştəri sorğuları üçün dəqiq cavablar verə bilər."
         }
       }
     },
@@ -963,7 +963,7 @@
         "ALL": "Hamısı"
       },
       "PENDING_BANNER": {
-        "TITLE": "Captain müştərilərinizin axtardığı bəzi FAQ-ları tapdı.",
+        "TITLE": "Lumia AI müştərilərinizin axtardığı bəzi FAQ-ları tapdı.",
         "ACTION": "Baxmaq üçün bura klikləyin"
       },
       "FORM_DESCRIPTION": "Bilik bazasına sual və ona uyğun cavabı əlavə edin, sonra onun əlaqələndiriləcəyi köməkçini seçin.",
@@ -1001,8 +1001,8 @@
         "SUBTITLE": "FAQ-lar köməkçinizə müştərilərinizdən gələn suallara sürətli və dəqiq cavablar verməyə kömək edir. Onlar məzmununuzdan avtomatik yaradına və ya əl ilə əlavə edilə bilər.",
         "CLEAR_SEARCH": "Aktiv filtrləri təmizlə",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQ tez-tez verilən və ya bilik bazasında olmayan müştəri suallarını aşkar edir və uyğun FAQ-lar yaradır. Hər təklifi nəzərdən keçirə və təsdiqləyə və ya rədd edə bilərsiniz."
+          "TITLE": "Lumia AI FAQ",
+          "NOTE": "Lumia AI FAQ tez-tez verilən və ya bilik bazasında olmayan müştəri suallarını aşkar edir və uyğun FAQ-lar yaradır. Hər təklifi nəzərdən keçirə və təsdiqləyə və ya rədd edə bilərsiniz."
         }
       }
     },

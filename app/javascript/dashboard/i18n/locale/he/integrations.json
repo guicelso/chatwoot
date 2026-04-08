@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Captain אינו מופעל בחשבונך.",
+      "DISABLED": "Lumia AI אינו מופעל בחשבונך.",
       "CLICK_HERE_TO_CONFIGURE": "לחץ כאן כדי להגדיר",
-      "LOADING_CONSOLE": "טוען את קונסולת Captain...",
-      "FAILED_TO_LOAD_CONSOLE": "הטעינה של קונסולת Captain נכשלה. אנא רענן ונסה שוב."
+      "LOADING_CONSOLE": "טוען את קונסולת Lumia AI...",
+      "FAILED_TO_LOAD_CONSOLE": "הטעינה של קונסולת Lumia AI נכשלה. אנא רענן ונסה שוב."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "אירועים מנויים",
@@ -182,7 +182,7 @@
         "GRAMMAR": "Fix grammar & spelling",
         "SUGGESTION": "Suggest a reply",
         "SUMMARIZE": "Summarize the conversation",
-        "ASK_COPILOT": "Ask Copilot"
+        "ASK_COPILOT": "Ask Lumia AI"
       },
       "ASSISTANCE_MODAL": {
         "DRAFT_TITLE": "טיוטת תוכן",
@@ -400,8 +400,8 @@
     "COPILOT": {
       "TITLE": "טייס משנה",
       "TRY_THESE_PROMPTS": "נסה הנחיות אלה",
-      "PANEL_TITLE": "התחל עם Copilot",
-      "KICK_OFF_MESSAGE": "צריך סיכום מהיר, רוצה לבדוק שיחות קודמות, או לנסח תשובה טובה יותר? Copilot כאן כדי להאיץ את הדברים.",
+      "PANEL_TITLE": "התחל עם Lumia AI",
+      "KICK_OFF_MESSAGE": "צריך סיכום מהיר, רוצה לבדוק שיחות קודמות, או לנסח תשובה טובה יותר? Lumia AI כאן כדי להאיץ את הדברים.",
       "SEND_MESSAGE": "שלח הודעה...",
       "EMPTY_MESSAGE": "אירעה שגיאה ביצירת התגובה. אנא נסה שוב.",
       "LOADER": "קפטן חושב",
@@ -439,23 +439,23 @@
       "MESSAGE_PLACEHOLDER": "הקלד הודעה...",
       "HEADER": "מגרש משחקים",
       "DESCRIPTION": "השתמש במגרש משחקים זה כדי לשלוח הודעות לעוזר שלך ולבדוק אם הוא מגיב בצורה מדויקת, מהירה ובטון שאתה מצפה לו.",
-      "CREDIT_NOTE": "הודעות שנשלחות כאן ייספרו למכסת הזיכויים של Captain שלך."
+      "CREDIT_NOTE": "הודעות שנשלחות כאן ייספרו למכסת הזיכויים של Lumia AI שלך."
     },
     "PAYWALL": {
-      "TITLE": "שדרג כדי להשתמש ב-Captain AI",
-      "AVAILABLE_ON": "Captain אינו זמין בתוכנית החינמית.",
-      "UPGRADE_PROMPT": "שדרג את התוכנית שלך כדי לקבל גישה לעוזרים שלנו, ל-Copilot ועוד.",
+      "TITLE": "שדרג כדי להשתמש ב-Lumia AI",
+      "AVAILABLE_ON": "Lumia AI אינו זמין בתוכנית החינמית.",
+      "UPGRADE_PROMPT": "שדרג את התוכנית שלך כדי לקבל גישה לעוזרים שלנו, ל-Lumia AI ועוד.",
       "UPGRADE_NOW": "שדרג עכשיו",
       "CANCEL_ANYTIME": "תוכל לשנות או לבטל את התוכנית שלך בכל עת"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Captain AI זמין רק בתכניות הארגוניות.",
-      "UPGRADE_PROMPT": "שדרג את התוכנית שלך כדי לקבל גישה לעוזרים שלנו, ל-Copilot ועוד.",
+      "AVAILABLE_ON": "Lumia AI זמין רק בתכניות הארגוניות.",
+      "UPGRADE_PROMPT": "שדרג את התוכנית שלך כדי לקבל גישה לעוזרים שלנו, ל-Lumia AI ועוד.",
       "ASK_ADMIN": "אנא פנה למנהל המערכת שלך לצורך השדרוג."
     },
     "BANNER": {
-      "RESPONSES": "ניצלת יותר מ-80% ממגבלת התגובות שלך. כדי להמשיך להשתמש ב-Captain AI, אנא שדרג.",
-      "DOCUMENTS": "מגבלת המסמכים הושגה. שדרג כדי להמשיך להשתמש ב-Captain AI."
+      "RESPONSES": "ניצלת יותר מ-80% ממגבלת התגובות שלך. כדי להמשיך להשתמש ב-Lumia AI, אנא שדרג.",
+      "DOCUMENTS": "מגבלת המסמכים הושגה. שדרג כדי להמשיך להשתמש ב-Lumia AI."
     },
     "FORM": {
       "CANCEL": "ביטול",
@@ -1002,7 +1002,7 @@
         "CLEAR_SEARCH": "נקה מסננים פעילים",
         "FEATURE_SPOTLIGHT": {
           "TITLE": "שאלות נפוצות של קפטן",
-          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "NOTE": "Lumia AI FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },

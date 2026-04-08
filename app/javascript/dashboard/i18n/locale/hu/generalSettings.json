@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Nincs olvasatlan értesítésed"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Értesítések betöltése...",
       "404": "Nincs értesítés",
+      "LOADING_MESSAGE": "Értesítések betöltése...",
       "TABLE_HEADER": [
         "Név",
         "Telefonszám",

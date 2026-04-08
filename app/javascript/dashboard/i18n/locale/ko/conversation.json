@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "죄송합니다. 대화를 찾을 수 없습니다. 다시 시도해 주십시오.",
     "SELECT_A_CONVERSATION": "왼쪽 창에서 대화를 선택하십시오.",
     "CSAT_REPLY_MESSAGE": "대화를 평가해 주십시오",
-    "404": "죄송합니다. 대화를 찾을 수 없습니다. 다시 시도해 주십시오.",
     "SWITCH_VIEW_LAYOUT": "레이아웃 전환",
     "DASHBOARD_APP_TAB_MESSAGES": "메시지",
     "UNVERIFIED_SESSION": "이 사용자의 신원이 확인되지 않았습니다",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "24시간 메시지 창 제한으로 인해 템플릿 메시지로만 답장할 수 있습니다",
       "MESSAGING_RESTRICTED_API": "메시지 창 제한으로 인해 템플릿 메시지로만 답장할 수 있습니다",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "메시지 서명이 설정되지 않았습니다. 프로필 설정에서 설정해 주십시오.",
-      "COPILOT_MSG_INPUT": "Copilot에 추가 프롬프트를 입력하거나 다른 질문을 하십시오... Enter를 눌러 후속 메시지를 보내십시오",
+      "COPILOT_MSG_INPUT": "Lumia AI에 추가 프롬프트를 입력하거나 다른 질문을 하십시오... Enter를 눌러 후속 메시지를 보내십시오",
       "CLICK_HERE": "업데이트하려면 여기를 클릭하십시오",
       "WHATSAPP_TEMPLATES": "WhatsApp 템플릿"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "여기에 드래그 앤 드롭하여 첨부하십시오",
       "START_AUDIO_RECORDING": "오디오 녹음 시작",
       "STOP_AUDIO_RECORDING": "오디오 녹음 중지",
-      "COPILOT_THINKING": "Copilot이 생각하고 있습니다",
+      "COPILOT_THINKING": "Lumia AI이 생각하고 있습니다",
       "EMAIL_HEAD": {
         "TO": "받는 사람",
         "ADD_BCC": "숨은 참조 추가",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "연락처",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "수신 전화",

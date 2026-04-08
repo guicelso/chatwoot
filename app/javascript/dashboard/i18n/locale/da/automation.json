@@ -43,13 +43,13 @@
       }
     },
     "LIST": {
+      "404": "Ingen automatiseringsregler fundet",
       "TABLE_HEADER": {
         "NAME": "Navn",
         "ACTIVE": "Aktiv",
         "CREATED_ON": "Oprettet den",
         "ACTIONS": "Handlinger"
-      },
-      "404": "Ingen automatiseringsregler fundet"
+      }
     },
     "DELETE": {
       "TITLE": "Slet Automatiseringsregel",

@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Memuat portal...",
       "404": "Tidak ada artikel yang cocok dengan pencarian Anda 🔍",
+      "LOADING_MESSAGE": "Memuat portal...",
       "NO_ARTICLES": "Tidak ada artikel yang tersedia",
       "HEADERS": {
         "TITLE": "Judul",

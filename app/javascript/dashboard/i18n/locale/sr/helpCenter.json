@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Učitavanje čalanaka...",
       "404": "Nema čalanaka koji se poklapaju sa vašom pretragom 🔍",
+      "LOADING_MESSAGE": "Učitavanje čalanaka...",
       "NO_ARTICLES": "Nema dostupnih članaka",
       "HEADERS": {
         "TITLE": "Naslov",

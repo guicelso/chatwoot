@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Məqalələr yüklənir...",
       "404": "Axtarışınıza uyğun məqalə tapılmadı 🔍",
+      "LOADING_MESSAGE": "Məqalələr yüklənir...",
       "NO_ARTICLES": "Mövcud məqalə yoxdur",
       "HEADERS": {
         "TITLE": "Başlıq",

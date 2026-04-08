@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "No tens notificacions no llegides"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Carregant notificacions...",
       "404": "Cap Notificació",
+      "LOADING_MESSAGE": "Carregant notificacions...",
       "TABLE_HEADER": [
         "Nom",
         "Número de telèfon",

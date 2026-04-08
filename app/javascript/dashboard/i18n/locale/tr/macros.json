@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Hiç kısayol bulunamadı",
       "TABLE_HEADER": {
         "NAME": "İsim",
         "CREATED BY": "Tarafından oluşturuldu",
         "LAST_UPDATED_BY": "Son güncelleyen",
         "VISIBILITY": "Görünürlük",
         "ACTIONS": "Hareketler"
-      },
-      "404": "Hiç kısayol bulunamadı"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Kısayolu Sil",

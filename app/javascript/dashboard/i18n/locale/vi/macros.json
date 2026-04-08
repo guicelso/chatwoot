@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Không tìm thấy macro",
       "TABLE_HEADER": {
         "NAME": "Tên",
         "CREATED BY": "Tạo bởi",
         "LAST_UPDATED_BY": "Cập nhật lần cuối bởi",
         "VISIBILITY": "Hiển thị",
         "ACTIONS": "Hành động"
-      },
-      "404": "Không tìm thấy macro"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Xóa Macro",

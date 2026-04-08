@@ -43,13 +43,13 @@
       }
     },
     "LIST": {
+      "404": "Nem található automatizált szabály",
       "TABLE_HEADER": {
         "NAME": "Név",
         "ACTIVE": "Aktív",
         "CREATED_ON": "Létrehozva",
         "ACTIONS": "Műveletek"
-      },
-      "404": "Nem található automatizált szabály"
+      }
     },
     "DELETE": {
       "TITLE": "Automatizált szabály törlése",

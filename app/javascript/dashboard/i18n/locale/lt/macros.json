@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Nerasta makrokomandų",
       "TABLE_HEADER": {
         "NAME": "Vardas",
         "CREATED BY": "Sukurtas",
         "LAST_UPDATED_BY": "Paskutinį kartą atnaujino",
         "VISIBILITY": "Matomumas",
         "ACTIONS": "Veiksmai"
-      },
-      "404": "Nerasta makrokomandų"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Ištrinti makrokomandą",

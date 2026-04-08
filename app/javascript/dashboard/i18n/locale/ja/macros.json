@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "マクロが見つかりませんでした",
       "TABLE_HEADER": {
         "NAME": "名前",
         "CREATED BY": "作成者",
         "LAST_UPDATED_BY": "最終更新者",
         "VISIBILITY": "可視性",
         "ACTIONS": "操作"
-      },
-      "404": "マクロが見つかりませんでした"
+      }
     },
     "DELETE": {
       "TOOLTIP": "マクロを削除",

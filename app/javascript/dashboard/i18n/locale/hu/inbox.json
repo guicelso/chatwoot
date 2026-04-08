@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Ebben a csoportban nincsenek aktív értesítések.",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "Display",
       "LOADING": "Értesítések lekérése",
-      "404": "Ebben a csoportban nincsenek aktív értesítések.",
       "NO_NOTIFICATIONS": "No notifications",
       "NOTE": "Értesítés az összes feliratkozott postafiókból",
       "NO_MESSAGES_AVAILABLE": "Oops! Not able to fetch messages",

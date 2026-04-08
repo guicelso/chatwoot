@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Įkeliami straipsniai...",
       "404": "Nė vienas straipsnis neatitinka jūsų paieškos 🔍",
+      "LOADING_MESSAGE": "Įkeliami straipsniai...",
       "NO_ARTICLES": "Nėra pasiekiamų straipsnių",
       "HEADERS": {
         "TITLE": "Pavadinimas",

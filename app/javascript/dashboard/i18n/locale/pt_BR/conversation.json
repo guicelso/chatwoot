@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Desculpe, não conseguimos encontrar a conversa. Por favor, tente novamente",
     "SELECT_A_CONVERSATION": "Por favor, selecione uma conversa no painel da esquerda",
     "CSAT_REPLY_MESSAGE": "Por favor, classifique a conversa",
-    "404": "Desculpe, não conseguimos encontrar a conversa. Por favor, tente novamente",
     "SWITCH_VIEW_LAYOUT": "Alternar o layout",
     "DASHBOARD_APP_TAB_MESSAGES": "Mensagens",
     "UNVERIFIED_SESSION": "A identidade deste usuário não foi verificada",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "Você só pode responder usando uma mensagem de modelo devido à restrição da janela de 24 horas",
       "MESSAGING_RESTRICTED_API": "Você só pode responder usando uma mensagem de template devido à restrição da janela de mensagens",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "A assinatura da mensagem não está configurada. Por favor, configure-a nas configurações do perfil.",
-      "COPILOT_MSG_INPUT": "Forneça instruções adicionais ao Copiloto ou pergunte algo mais... Pressione Enter para enviar",
+      "COPILOT_MSG_INPUT": "Forneça instruções adicionais ao Lumia AI ou pergunte algo mais... Pressione Enter para enviar",
       "CLICK_HERE": "Clique aqui para atualizar",
       "WHATSAPP_TEMPLATES": "Modelos do Whatsapp"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Arraste e solte aqui para anexar",
       "START_AUDIO_RECORDING": "Iniciar gravação de áudio",
       "STOP_AUDIO_RECORDING": "Parar gravação de áudio",
-      "COPILOT_THINKING": "O Copiloto está pensando",
+      "COPILOT_THINKING": "O Lumia AI está pensando",
       "EMAIL_HEAD": {
         "TO": "Para",
         "ADD_BCC": "Adicionar cco",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "Contatos",
-      "COPILOT": "Copiloto"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Chamada recebida",

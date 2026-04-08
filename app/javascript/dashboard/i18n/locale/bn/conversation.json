@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "দুঃখিত, আমরা কনভার্সেশনটি খুঁজে পাচ্ছি না। আবার চেষ্টা করুন",
     "SELECT_A_CONVERSATION": "বাম পাশ থেকে একটি কনভার্সেশন নির্বাচন করুন",
     "CSAT_REPLY_MESSAGE": "অনুগ্রহ করে কথোপকথনের মূল্যায়ন করুন",
-    "404": "দুঃখিত, আমরা কনভার্সেশনটি খুঁজে পাচ্ছি না। আবার চেষ্টা করুন",
     "SWITCH_VIEW_LAYOUT": "লেআউট পরিবর্তন করুন",
     "DASHBOARD_APP_TAB_MESSAGES": "বার্তা",
     "UNVERIFIED_SESSION": "এই ব্যবহারকারীর পরিচয় যাচাই করা হয়নি",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "২৪ ঘণ্টার বার্তা সীমাবদ্ধতার কারণে শুধু টেমপ্লেট বার্তা দিয়ে উত্তর দিতে পারবেন",
       "MESSAGING_RESTRICTED_API": "বার্তা উইন্ডো সীমাবদ্ধতার কারণে শুধু টেমপ্লেট বার্তা দিয়ে উত্তর দিতে পারবেন",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "বার্তার স্বাক্ষর কনফিগার করা হয়নি, প্রোফাইল সেটিংসে কনফিগার করুন।",
-      "COPILOT_MSG_INPUT": "Copilot-কে আরও নির্দেশ দিন বা অন্য কিছু জিজ্ঞাসা করুন... ফলো-আপ পাঠাতে এন্টার চাপুন",
+      "COPILOT_MSG_INPUT": "Lumia AI-কে আরও নির্দেশ দিন বা অন্য কিছু জিজ্ঞাসা করুন... ফলো-আপ পাঠাতে এন্টার চাপুন",
       "CLICK_HERE": "আপডেট করতে এখানে ক্লিক করুন",
       "WHATSAPP_TEMPLATES": "Whatsapp টেমপ্লেট"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "সংযুক্ত করতে এখানে ড্র্যাগ ও ড্রপ করুন",
       "START_AUDIO_RECORDING": "অডিও রেকর্ডিং শুরু করুন",
       "STOP_AUDIO_RECORDING": "অডিও রেকর্ডিং বন্ধ করুন",
-      "COPILOT_THINKING": "Copilot ভাবছে",
+      "COPILOT_THINKING": "Lumia AI ভাবছে",
       "EMAIL_HEAD": {
         "TO": "TO",
         "ADD_BCC": "বিসিসি যোগ করুন",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "যোগাযোগ",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "আসন্ন কল",

@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Captain is not enabled on your account.",
+      "DISABLED": "Lumia AI is not enabled on your account.",
       "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Captain Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Captain Console. Please refresh and try again."
+      "LOADING_CONSOLE": "Loading Lumia AI Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Failed to load Lumia AI Console. Please refresh and try again."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Subskrybowane wydarzenia",
@@ -182,7 +182,7 @@
         "GRAMMAR": "Fix grammar & spelling",
         "SUGGESTION": "Suggest a reply",
         "SUMMARIZE": "Summarize the conversation",
-        "ASK_COPILOT": "Ask Copilot"
+        "ASK_COPILOT": "Ask Lumia AI"
       },
       "ASSISTANCE_MODAL": {
         "DRAFT_TITLE": "Draft content",
@@ -389,7 +389,7 @@
     }
   },
   "CAPTAIN": {
-    "NAME": "Captain",
+    "NAME": "Lumia AI",
     "HEADER_KNOW_MORE": "Dowiedz się więcej",
     "ASSISTANT_SWITCHER": {
       "ASSISTANTS": "Asystenci",
@@ -398,13 +398,13 @@
       "EMPTY_LIST": "Nie znaleziono asystentów, utwórz jednego, aby zacząć"
     },
     "COPILOT": {
-      "TITLE": "Copilot",
+      "TITLE": "Lumia AI",
       "TRY_THESE_PROMPTS": "Try these prompts",
-      "PANEL_TITLE": "Rozpocznij z Copilotem",
-      "KICK_OFF_MESSAGE": "Potrzebujesz szybkiego podsumowania, chcesz sprawdzić wcześniejsze rozmowy lub napisać lepszą odpowiedź? Copilot jest tutaj, aby przyspieszyć pracę.",
+      "PANEL_TITLE": "Rozpocznij z Lumia AIem",
+      "KICK_OFF_MESSAGE": "Potrzebujesz szybkiego podsumowania, chcesz sprawdzić wcześniejsze rozmowy lub napisać lepszą odpowiedź? Lumia AI jest tutaj, aby przyspieszyć pracę.",
       "SEND_MESSAGE": "Wyślij wiadomość...",
       "EMPTY_MESSAGE": "Wystąpił błąd podczas generowania odpowiedzi. Spróbuj ponownie.",
-      "LOADER": "Captain myśli",
+      "LOADER": "Lumia AI myśli",
       "YOU": "You",
       "USE": "Użyj tego",
       "RESET": "Resetuj",
@@ -439,23 +439,23 @@
       "MESSAGE_PLACEHOLDER": "Wpisz treść wiadomości...",
       "HEADER": "Pole zabaw",
       "DESCRIPTION": "Użyj tego pola zabaw, aby wysyłać wiadomości do swojego asystenta i sprawdzić, czy odpowiada dokładnie, szybko i w oczekiwanym tonie.",
-      "CREDIT_NOTE": "Wiadomości wysłane tutaj będą naliczane do twoich kredytów Captain."
+      "CREDIT_NOTE": "Wiadomości wysłane tutaj będą naliczane do twoich kredytów Lumia AI."
     },
     "PAYWALL": {
-      "TITLE": "Uaktualnij, aby korzystać z Captain AI",
-      "AVAILABLE_ON": "Captain nie jest dostępny w darmowym planie.",
-      "UPGRADE_PROMPT": "Zaktualizuj swój plan, aby uzyskać dostęp do naszych asystentów, copilota i innych funkcji.",
+      "TITLE": "Uaktualnij, aby korzystać z Lumia AI",
+      "AVAILABLE_ON": "Lumia AI nie jest dostępny w darmowym planie.",
+      "UPGRADE_PROMPT": "Zaktualizuj swój plan, aby uzyskać dostęp do naszych asystentów, Lumia AIa i innych funkcji.",
       "UPGRADE_NOW": "Upgrade now",
       "CANCEL_ANYTIME": "You can change or cancel your plan anytime"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Captain AI jest dostępny tylko w planach Enterprise.",
-      "UPGRADE_PROMPT": "Zaktualizuj swój plan, aby uzyskać dostęp do naszych asystentów, copilota i innych funkcji.",
+      "AVAILABLE_ON": "Lumia AI jest dostępny tylko w planach Enterprise.",
+      "UPGRADE_PROMPT": "Zaktualizuj swój plan, aby uzyskać dostęp do naszych asystentów, Lumia AIa i innych funkcji.",
       "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
     },
     "BANNER": {
-      "RESPONSES": "Wykorzystałeś ponad 80% limitu odpowiedzi. Aby nadal korzystać z Captain AI, proszę przeprowadź aktualizację.",
-      "DOCUMENTS": "Osiągnięto limit dokumentów. Aby kontynuować korzystanie z Captain AI, przeprowadź aktualizację."
+      "RESPONSES": "Wykorzystałeś ponad 80% limitu odpowiedzi. Aby nadal korzystać z Lumia AI, proszę przeprowadź aktualizację.",
+      "DOCUMENTS": "Osiągnięto limit dokumentów. Aby kontynuować korzystanie z Lumia AI, przeprowadź aktualizację."
     },
     "FORM": {
       "CANCEL": "Anuluj",
@@ -576,8 +576,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistant",
-          "NOTE": "Captain Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Lumia AI Assistant",
+          "NOTE": "Lumia AI Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -798,8 +798,8 @@
         "TITLE": "No documents available",
         "SUBTITLE": "Documents are used by your assistant to generate FAQs. You can import documents to provide context for your assistant.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Document",
-          "NOTE": "A document in Captain serves as a knowledge resource for the assistant. By connecting your help center or guides, Captain can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Lumia AI Document",
+          "NOTE": "A document in Lumia AI serves as a knowledge resource for the assistant. By connecting your help center or guides, Lumia AI can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -963,7 +963,7 @@
         "ALL": "Wszystkie"
       },
       "PENDING_BANNER": {
-        "TITLE": "Captain has found some FAQs your customers were looking for.",
+        "TITLE": "Lumia AI has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -1001,8 +1001,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "Lumia AI FAQ",
+          "NOTE": "Lumia AI FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },

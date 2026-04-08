@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Makaleler yükleniyor...",
       "404": "Arama kriterlerinize uygun makale bulunamadı 🔍",
+      "LOADING_MESSAGE": "Makaleler yükleniyor...",
       "NO_ARTICLES": "Uygun makale bulunmamaktadır",
       "HEADERS": {
         "TITLE": "Başlık",

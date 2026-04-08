@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Artiklite laadimine...",
       "404": "Otsingule ei vastanud ühtegi artiklit 🔍",
+      "LOADING_MESSAGE": "Artiklite laadimine...",
       "NO_ARTICLES": "Saadaval pole ühtegi artiklit",
       "HEADERS": {
         "TITLE": "Pealkiri",

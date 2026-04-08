@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Caricamento articoli...",
       "404": "Nessun articolo corrisponde alla tua ricerca 🔍",
+      "LOADING_MESSAGE": "Caricamento articoli...",
       "NO_ARTICLES": "Non ci sono articoli disponibili",
       "HEADERS": {
         "TITLE": "Titolo",

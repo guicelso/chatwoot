@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "No s'han trobat macros",
       "TABLE_HEADER": {
         "NAME": "Nom",
         "CREATED BY": "Creat per",
         "LAST_UPDATED_BY": "Última actualització per",
         "VISIBILITY": "Visibilitat",
         "ACTIONS": "Accions"
-      },
-      "404": "No s'han trobat macros"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Suprimeix la macro",

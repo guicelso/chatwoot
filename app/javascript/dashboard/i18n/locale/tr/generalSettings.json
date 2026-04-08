@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Okunmamış bildiriminiz yok"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Bildirimler yükleniyor...",
       "404": "Bildirim yok",
+      "LOADING_MESSAGE": "Bildirimler yükleniyor...",
       "TABLE_HEADER": [
         "İsim",
         "Telefon Numarası",

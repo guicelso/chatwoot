@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "No se encontraron macros",
       "TABLE_HEADER": {
         "NAME": "Nombre",
         "CREATED BY": "Creado por",
         "LAST_UPDATED_BY": "Última actualización por",
         "VISIBILITY": "Visibilidad",
         "ACTIONS": "Acciones"
-      },
-      "404": "No se encontraron macros"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Eliminar macro",

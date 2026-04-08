@@ -43,13 +43,13 @@
       }
     },
     "LIST": {
+      "404": "Nisu pronađena pravila automatizacije",
       "TABLE_HEADER": {
         "NAME": "Ime",
         "ACTIVE": "Aktivno",
         "CREATED_ON": "Napravljeno",
         "ACTIONS": "Akcije"
-      },
-      "404": "Nisu pronađena pravila automatizacije"
+      }
     },
     "DELETE": {
       "TITLE": "Obriši pravilo automatizacije",

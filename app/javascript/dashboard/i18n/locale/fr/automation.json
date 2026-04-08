@@ -43,13 +43,13 @@
       }
     },
     "LIST": {
+      "404": "Aucune règle d'automatisation trouvée",
       "TABLE_HEADER": {
         "NAME": "Nom",
         "ACTIVE": "Actif",
         "CREATED_ON": "Créé le",
         "ACTIONS": "Actions"
-      },
-      "404": "Aucune règle d'automatisation trouvée"
+      }
     },
     "DELETE": {
       "TITLE": "Supprimer la règle d'automatisation",

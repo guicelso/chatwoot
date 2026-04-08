@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Jums nav nelasītu paziņojumu"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Notiek paziņojumu ielāde...",
       "404": "Nav paziņojumu",
+      "LOADING_MESSAGE": "Notiek paziņojumu ielāde...",
       "TABLE_HEADER": [
         "Nosaukums",
         "Telefona numurs",

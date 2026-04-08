@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Sorry, we cannot find the conversation. Please try again",
     "SELECT_A_CONVERSATION": "請從左側窗格選擇一個對話",
     "CSAT_REPLY_MESSAGE": "Please rate the conversation",
-    "404": "Sorry, we cannot find the conversation. Please try again",
     "SWITCH_VIEW_LAYOUT": "Switch the layout",
     "DASHBOARD_APP_TAB_MESSAGES": "訊息",
     "UNVERIFIED_SESSION": "The identity of this user is not verified",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Message signature is not configured, please configure it in profile settings.",
-      "COPILOT_MSG_INPUT": "給 Copilot 更多提示，或問其他問題... 按 Enter 發送續接訊息",
+      "COPILOT_MSG_INPUT": "給 Lumia AI 更多提示，或問其他問題... 按 Enter 發送續接訊息",
       "CLICK_HERE": "Click here to update",
       "WHATSAPP_TEMPLATES": "Whatsapp Templates"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Drag and drop here to attach",
       "START_AUDIO_RECORDING": "Start audio recording",
       "STOP_AUDIO_RECORDING": "Stop audio recording",
-      "COPILOT_THINKING": "Copilot 正在思考",
+      "COPILOT_THINKING": "Lumia AI 正在思考",
       "EMAIL_HEAD": {
         "TO": "TO",
         "ADD_BCC": "密件副本",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "聯絡人",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Incoming call",

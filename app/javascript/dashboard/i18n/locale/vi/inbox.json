@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Không có thông báo nào đang hoạt động trong nhóm này.",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "Hiển thị",
       "LOADING": "Tải thông báo",
-      "404": "Không có thông báo nào đang hoạt động trong nhóm này.",
       "NO_NOTIFICATIONS": "Không có thông báo",
       "NOTE": "Thông báo từ tất cả các hộp thư đến đã đăng ký",
       "NO_MESSAGES_AVAILABLE": "Ối! Không thể tải tin nhắn",

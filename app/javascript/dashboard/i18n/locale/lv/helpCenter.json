@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Notiek rakstu ielāde...",
       "404": "Neviens raksts neatbilst jūsu meklēšanas vaicājumam 🔍",
+      "LOADING_MESSAGE": "Notiek rakstu ielāde...",
       "NO_ARTICLES": "Raksti nav pieejami",
       "HEADERS": {
         "TITLE": "Nosaukums",

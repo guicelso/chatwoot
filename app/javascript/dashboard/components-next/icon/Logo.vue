@@ -1,16 +1,38 @@
 <script setup>
-import { useAttrs } from 'vue';
+import { computed, onBeforeUnmount, onMounted, ref, useAttrs } from 'vue';
 import { useMapGetter } from 'dashboard/composables/store';
 
 const attrs = useAttrs();
 const globalConfig = useMapGetter('globalConfig/get');
+const isDark = ref(false);
+let themeObserver;
+
+const syncTheme = () => {
+  isDark.value = document.body.classList.contains('dark');
+};
+
+onMounted(() => {
+  syncTheme();
+  themeObserver = new MutationObserver(syncTheme);
+  themeObserver.observe(document.body, {
+    attributes: true,
+    attributeFilter: ['class'],
+  });
+});
+
+onBeforeUnmount(() => {
+  themeObserver?.disconnect();
+});
+
+const logoSrc = computed(() => globalConfig.value?.logoThumbnail);
 </script>
 
 <template>
   <img
-    v-if="globalConfig.logoThumbnail"
+    v-if="logoSrc"
     v-bind="attrs"
-    :src="globalConfig.logoThumbnail"
+    :src="logoSrc"
+    :class="[attrs.class, { invert: isDark }]"
   />
   <svg
     v-else

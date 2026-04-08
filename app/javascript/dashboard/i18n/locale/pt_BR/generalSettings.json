@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Você não tem notificações não lidas"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Carregando notificações...",
       "404": "Sem Notificações",
+      "LOADING_MESSAGE": "Carregando notificações...",
       "TABLE_HEADER": [
         "Nome",
         "Número de Telefone",

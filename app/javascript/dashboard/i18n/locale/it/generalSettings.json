@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Non hai nessuna nuova notifica"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Caricamento notifiche...",
       "404": "Nessuna notifica",
+      "LOADING_MESSAGE": "Caricamento notifiche...",
       "TABLE_HEADER": [
         "Nome",
         "Numero di Telefono",

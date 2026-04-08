@@ -11,16 +11,29 @@ RSpec.describe Internal::CheckNewVersionsJob do
     allow(Rails.env).to receive(:production?).and_return(true)
   end
 
-  it 'updates the plan info' do
+  it 'keeps self-hosted enterprise plan info local while updating support info' do
     data = { 'version' => '1.2.3', 'plan' => 'enterprise', 'plan_quantity' => 1, 'chatwoot_support_website_token' => '123',
              'chatwoot_support_identifier_hash' => '123', 'chatwoot_support_script_url' => '123' }
     allow(ChatwootHub).to receive(:sync_with_hub).and_return(data)
+    allow(ChatwootApp).to receive(:self_hosted_enterprise?).and_return(true)
+    allow(ChatwootApp).to receive(:max_limit).and_return(100_000)
     job
     expect(InstallationConfig.find_by(name: 'INSTALLATION_PRICING_PLAN').value).to eq 'enterprise'
-    expect(InstallationConfig.find_by(name: 'INSTALLATION_PRICING_PLAN_QUANTITY').value).to eq 1
+    expect(InstallationConfig.find_by(name: 'INSTALLATION_PRICING_PLAN_QUANTITY').value).to eq 100_000
     expect(InstallationConfig.find_by(name: 'CHATWOOT_SUPPORT_WEBSITE_TOKEN').value).to eq '123'
     expect(InstallationConfig.find_by(name: 'CHATWOOT_SUPPORT_IDENTIFIER_HASH').value).to eq '123'
     expect(InstallationConfig.find_by(name: 'CHATWOOT_SUPPORT_SCRIPT_URL').value).to eq '123'
+  end
+
+  it 'updates persisted plan info from hub for cloud installations' do
+    data = { 'version' => '1.2.3', 'plan' => 'business', 'plan_quantity' => 7, 'chatwoot_support_website_token' => '123',
+             'chatwoot_support_identifier_hash' => '123', 'chatwoot_support_script_url' => '123' }
+    allow(ChatwootHub).to receive(:sync_with_hub).and_return(data)
+    allow(ChatwootApp).to receive(:self_hosted_enterprise?).and_return(false)
+    job
+
+    expect(InstallationConfig.find_by(name: 'INSTALLATION_PRICING_PLAN').value).to eq 'business'
+    expect(InstallationConfig.find_by(name: 'INSTALLATION_PRICING_PLAN_QUANTITY').value).to eq 7
   end
 
   it 'calls Internal::ReconcilePlanConfigService' do

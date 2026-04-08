@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "읽지 않은 알림이 없습니다"
     },
     "LIST": {
-      "LOADING_MESSAGE": "알림을 불러오는 중...",
       "404": "알림 없음",
+      "LOADING_MESSAGE": "알림을 불러오는 중...",
       "TABLE_HEADER": [
         "이름",
         "전화 번호",

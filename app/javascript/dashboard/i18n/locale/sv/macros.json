@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "No macros found",
       "TABLE_HEADER": {
         "NAME": "Namn",
         "CREATED BY": "Created by",
         "LAST_UPDATED_BY": "Senast uppdaterad av",
         "VISIBILITY": "Visibility",
         "ACTIONS": "Åtgärder"
-      },
-      "404": "No macros found"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Delete macro",

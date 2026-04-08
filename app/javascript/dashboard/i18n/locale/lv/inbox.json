@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Šajā grupā nav aktīvu paziņojumu.",
       "TITLE": "Mana Iesūtne",
       "DISPLAY_DROPDOWN": "Parādīt",
       "LOADING": "Notiek paziņojumu iegūšana",
-      "404": "Šajā grupā nav aktīvu paziņojumu.",
       "NO_NOTIFICATIONS": "Nav paziņojumu",
       "NOTE": "Paziņojumi no visām abonētajām iesūtnēm",
       "NO_MESSAGES_AVAILABLE": "Nevar iegūt ziņojumus",

@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Nie znaleziono makr",
       "TABLE_HEADER": {
         "NAME": "Imię",
         "CREATED BY": "Utworzone przez",
         "LAST_UPDATED_BY": "Ostatnio zaktualizowane przez",
         "VISIBILITY": "Widoczność",
         "ACTIONS": "Akcje"
-      },
-      "404": "Nie znaleziono makr"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Usuń makro",

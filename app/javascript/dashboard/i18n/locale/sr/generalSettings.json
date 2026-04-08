@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Nemate nepročitanih obaveštenja"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Učitavanje obaveštenja...",
       "404": "Nema obaveštenja",
+      "LOADING_MESSAGE": "Učitavanje obaveštenja...",
       "TABLE_HEADER": [
         "Ime",
         "Broj telefona",

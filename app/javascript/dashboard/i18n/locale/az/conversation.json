@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Bağışlayın, söhbəti tapa bilmirik. Zəhmət olmasa, yenidən cəhd edin",
     "SELECT_A_CONVERSATION": "Zəhmət olmasa, soldakı paneldən bir söhbət seçin",
     "CSAT_REPLY_MESSAGE": "Zəhmət olmasa söhbəti qiymətləndirin",
-    "404": "Bağışlayın, söhbəti tapa bilmirik. Zəhmət olmasa, yenidən cəhd edin",
     "SWITCH_VIEW_LAYOUT": "Düzəni dəyişdirin",
     "DASHBOARD_APP_TAB_MESSAGES": "Mesajlar",
     "UNVERIFIED_SESSION": "Bu istifadəçinin şəxsiyyəti təsdiqlənməyib",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "24 saatlıq mesaj pəncərəsi məhdudiyyəti səbəbindən yalnız şablon mesajla cavab verə bilərsiniz",
       "MESSAGING_RESTRICTED_API": "Mesaj pəncərəsi məhdudiyyəti səbəbindən yalnız şablon mesajla cavab verə bilərsiniz",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Mesaj imzası qurulmayıb, zəhmət olmasa profil parametrlərində qurun.",
-      "COPILOT_MSG_INPUT": "Copilot üçün əlavə göstərişlər verin və ya başqa sual verin... Davam etmək üçün enter düyməsini basın",
+      "COPILOT_MSG_INPUT": "Lumia AI üçün əlavə göstərişlər verin və ya başqa sual verin... Davam etmək üçün enter düyməsini basın",
       "CLICK_HERE": "Yeniləmək üçün buraya klikləyin",
       "WHATSAPP_TEMPLATES": "Whatsapp Şablonları"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Qoşmaq üçün buraya sürükləyin və buraxın",
       "START_AUDIO_RECORDING": "Səs yazısını başla",
       "STOP_AUDIO_RECORDING": "Səs yazısını dayandırın",
-      "COPILOT_THINKING": "Copilot düşünür",
+      "COPILOT_THINKING": "Lumia AI düşünür",
       "EMAIL_HEAD": {
         "TO": "KİMƏ",
         "ADD_BCC": "Gizli nüsxə əlavə et",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "Əlaqə",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Gələn zəng",

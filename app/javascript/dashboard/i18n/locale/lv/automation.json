@@ -43,13 +43,13 @@
       }
     },
     "LIST": {
+      "404": "Automatizācijas noteikumi nav atrasti",
       "TABLE_HEADER": {
         "NAME": "Nosaukums",
         "ACTIVE": "Aktīvs",
         "CREATED_ON": "Izveidots",
         "ACTIONS": "Darbības"
-      },
-      "404": "Automatizācijas noteikumi nav atrasti"
+      }
     },
     "DELETE": {
       "TITLE": "Dzēst automatizācijas noteikumu",

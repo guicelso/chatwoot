@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "No macros found",
       "TABLE_HEADER": {
         "NAME": "Nama",
         "CREATED BY": "Created by",
         "LAST_UPDATED_BY": "Last updated by",
         "VISIBILITY": "Visibility",
         "ACTIONS": "Tindakan-tindakan"
-      },
-      "404": "No macros found"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Delete macro",

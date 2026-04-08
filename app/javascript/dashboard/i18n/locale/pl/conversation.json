@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Przepraszamy, nie można odnaleźć konwersacji. Spróbuj ponownie",
     "SELECT_A_CONVERSATION": "Wybierz konwersację z lewego panelu",
     "CSAT_REPLY_MESSAGE": "Oceń konwersację",
-    "404": "Przepraszamy, nie można odnaleźć konwersacji. Spróbuj ponownie",
     "SWITCH_VIEW_LAYOUT": "Zmień układ",
     "DASHBOARD_APP_TAB_MESSAGES": "Wiadomości",
     "UNVERIFIED_SESSION": "Tożsamość tego użytkownika nie jest zweryfikowana",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Podpis wiadomości nie jest skonfigurowany, należy go skonfigurować w ustawieniach profilu.",
-      "COPILOT_MSG_INPUT": "Podaj copilota dodatkowe wskazówki lub zapytaj o cokolwiek... Naciśnij Enter, aby wysłać odpowiedź uzupełniającą",
+      "COPILOT_MSG_INPUT": "Podaj Lumia AIa dodatkowe wskazówki lub zapytaj o cokolwiek... Naciśnij Enter, aby wysłać odpowiedź uzupełniającą",
       "CLICK_HERE": "Kliknij tutaj, aby zaktualizować",
       "WHATSAPP_TEMPLATES": "Szablony WhatsApp"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Przeciągnij i upuść tutaj, aby dołączyć",
       "START_AUDIO_RECORDING": "Rozpocznij nagrywanie audio",
       "STOP_AUDIO_RECORDING": "Zatrzymaj nagrywanie audio",
-      "COPILOT_THINKING": "Copilot myśli",
+      "COPILOT_THINKING": "Lumia AI myśli",
       "EMAIL_HEAD": {
         "TO": "DO",
         "ADD_BCC": "Dodaj Bcc",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "Kontakt",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Incoming call",

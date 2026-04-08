@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Não há notificações ativas neste grupo.",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "Mostrar",
       "LOADING": "A obter notificações",
-      "404": "Não há notificações ativas neste grupo.",
       "NO_NOTIFICATIONS": "Sem notificações",
       "NOTE": "Notificações de todas as caixas subscritas",
       "NO_MESSAGES_AVAILABLE": "Oops! Não foi possível importar mensagens",

@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Bu grupta aktif görüşme yok.",
       "TITLE": "Gelen Kutusu",
       "DISPLAY_DROPDOWN": "Görüntüle",
       "LOADING": "Bildirimler yükleniyor",
-      "404": "Bu grupta aktif görüşme yok.",
       "NO_NOTIFICATIONS": "Bildirim yok",
       "NOTE": "Abone olunan tüm gelen kutularından bildirimler",
       "NO_MESSAGES_AVAILABLE": "Oops! Not able to fetch messages",

@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Memuatkan artikel...",
       "404": "Tiada artikel yang sepadan dengan carian anda 🔍",
+      "LOADING_MESSAGE": "Memuatkan artikel...",
       "NO_ARTICLES": "Tiada artikel yang tersedia",
       "HEADERS": {
         "TITLE": "Tajuk",

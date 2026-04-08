@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "이 그룹에 활성 알림이 없습니다.",
       "TITLE": "내 받은 메시지함",
       "DISPLAY_DROPDOWN": "표시",
       "LOADING": "알림을 가져오는 중",
-      "404": "이 그룹에 활성 알림이 없습니다.",
       "NO_NOTIFICATIONS": "알림 없음",
       "NOTE": "구독한 모든 받은 메시지함의 알림",
       "NO_MESSAGES_AVAILABLE": "메시지를 가져올 수 없습니다",

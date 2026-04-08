@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "未找到宏",
       "TABLE_HEADER": {
         "NAME": "姓名：",
         "CREATED BY": "创建者",
         "LAST_UPDATED_BY": "最后更新者",
         "VISIBILITY": "可视性",
         "ACTIONS": "操作"
-      },
-      "404": "未找到宏"
+      }
     },
     "DELETE": {
       "TOOLTIP": "删除宏文件",

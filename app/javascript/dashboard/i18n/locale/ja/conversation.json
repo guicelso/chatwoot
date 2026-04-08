@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "会話が見つかりませんでした。もう一度お試しください。",
     "SELECT_A_CONVERSATION": "左のリストから会話を選択してください",
     "CSAT_REPLY_MESSAGE": "会話の評価にご協力をお願いいたします。",
-    "404": "会話が見つかりませんでした。もう一度お試しください。",
     "SWITCH_VIEW_LAYOUT": "レイアウトを変更",
     "DASHBOARD_APP_TAB_MESSAGES": "メッセージ",
     "UNVERIFIED_SESSION": "このユーザーの身元は確認されていません",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "メッセージ署名が構成されていません。プロフィール設定で構成してください。",
-      "COPILOT_MSG_INPUT": "Copilot に追加のプロンプトを送るか、ほかの質問をしてください… Enter キーでフォローアップを送信",
+      "COPILOT_MSG_INPUT": "Lumia AI に追加のプロンプトを送るか、ほかの質問をしてください… Enter キーでフォローアップを送信",
       "CLICK_HERE": "ここをクリックして更新",
       "WHATSAPP_TEMPLATES": "Whatsapp テンプレート"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "添付するにはここにドラッグ＆ドロップ",
       "START_AUDIO_RECORDING": "音声録音を開始",
       "STOP_AUDIO_RECORDING": "音声録音を停止",
-      "COPILOT_THINKING": "Copilotが考え中",
+      "COPILOT_THINKING": "Lumia AIが考え中",
       "EMAIL_HEAD": {
         "TO": "宛先",
         "ADD_BCC": "Bcc を追加",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "連絡先",
-      "COPILOT": "コパイロット"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Incoming call",

@@ -23,10 +23,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Captain jūsu kontā nav iespējots.",
+      "DISABLED": "Lumia AI jūsu kontā nav iespējots.",
       "CLICK_HERE_TO_CONFIGURE": "Noklikšķiniet šeit, lai konfigurētu",
-      "LOADING_CONSOLE": "Notiek Captain konsoles ielāde...",
-      "FAILED_TO_LOAD_CONSOLE": "Neizdevās ielādēt Captain konsoli. Lūdzu, mēģiniet vēlreiz."
+      "LOADING_CONSOLE": "Notiek Lumia AI konsoles ielāde...",
+      "FAILED_TO_LOAD_CONSOLE": "Neizdevās ielādēt Lumia AI konsoli. Lūdzu, mēģiniet vēlreiz."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Abonētie Notikumi",
@@ -182,7 +182,7 @@
         "GRAMMAR": "Fix grammar & spelling",
         "SUGGESTION": "Suggest a reply",
         "SUMMARIZE": "Summarize the conversation",
-        "ASK_COPILOT": "Ask Copilot"
+        "ASK_COPILOT": "Ask Lumia AI"
       },
       "ASSISTANCE_MODAL": {
         "DRAFT_TITLE": "Melnraksta saturs",
@@ -400,8 +400,8 @@
     "COPILOT": {
       "TITLE": "Kopilots",
       "TRY_THESE_PROMPTS": "Pamēģiniet",
-      "PANEL_TITLE": "Sāciet darbu ar Copilot",
-      "KICK_OFF_MESSAGE": "Vai nepieciešams ātrs kopsavilkums, pārbaudīt iepriekšējās sarunas vai sagatavot labāku atbildi? Copilot ir šeit, lai paātrinātu lietas.",
+      "PANEL_TITLE": "Sāciet darbu ar Lumia AI",
+      "KICK_OFF_MESSAGE": "Vai nepieciešams ātrs kopsavilkums, pārbaudīt iepriekšējās sarunas vai sagatavot labāku atbildi? Lumia AI ir šeit, lai paātrinātu lietas.",
       "SEND_MESSAGE": "Sūtīt ziņojumu...",
       "EMPTY_MESSAGE": "Radās kļūda, ģenerējot atbildi. Lūdzu, mēģiniet vēlreiz.",
       "LOADER": "Kapteinis domā",
@@ -439,23 +439,23 @@
       "MESSAGE_PLACEHOLDER": "Rakstiet savu ziņojumu...",
       "HEADER": "Izmēģinājuma laukums",
       "DESCRIPTION": "Izmantojiet šo izmēģinājuma laukumu, lai sūtītu ziņojumus savam palīgam un pārbaudītu, vai tas atbild precīzi, ātri un ar gaidīto toni.",
-      "CREDIT_NOTE": "Šeit nosūtītie ziņojumi tiks ieskaitīti jūsu Captain kredītos."
+      "CREDIT_NOTE": "Šeit nosūtītie ziņojumi tiks ieskaitīti jūsu Lumia AI kredītos."
     },
     "PAYWALL": {
-      "TITLE": "Modernizējiet abonementu, lai izmantotu Captain AI",
-      "AVAILABLE_ON": "Captain nav pieejams bezmaksas abonementā.",
-      "UPGRADE_PROMPT": "Modernizējiet savu abonementu, lai iegūtu piekļuvi viruālajiem asistentiem un copilot.",
+      "TITLE": "Modernizējiet abonementu, lai izmantotu Lumia AI",
+      "AVAILABLE_ON": "Lumia AI nav pieejams bezmaksas abonementā.",
+      "UPGRADE_PROMPT": "Modernizējiet savu abonementu, lai iegūtu piekļuvi viruālajiem asistentiem un Lumia AI.",
       "UPGRADE_NOW": "Pāriet uz maksas versiju tagad",
       "CANCEL_ANYTIME": "Jūs varat jebkurā laikā mainīt vai atcelt savu versiju"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Captain AI ir pieejams tikai Enterprise plānos.",
-      "UPGRADE_PROMPT": "Modernizējiet savu abonementu, lai iegūtu piekļuvi viruālajiem asistentiem un copilot.",
+      "AVAILABLE_ON": "Lumia AI ir pieejams tikai Enterprise plānos.",
+      "UPGRADE_PROMPT": "Modernizējiet savu abonementu, lai iegūtu piekļuvi viruālajiem asistentiem un Lumia AI.",
       "ASK_ADMIN": "Lai pārietu uz maksas versiju, lūdzu sazinieties ar savu administratoru."
     },
     "BANNER": {
-      "RESPONSES": "Jūs esat izmantojis vairāk kā 80% no sava atbilžu ierobežojuma. Lai turpinātu izmantot Captain AI, lūdzu, atjauniniet abonementu.",
-      "DOCUMENTS": "Sasniegts dokumentu limits. Atjauniniet abonementu, lai turpinātu izmantot Captain AI."
+      "RESPONSES": "Jūs esat izmantojis vairāk kā 80% no sava atbilžu ierobežojuma. Lai turpinātu izmantot Lumia AI, lūdzu, atjauniniet abonementu.",
+      "DOCUMENTS": "Sasniegts dokumentu limits. Atjauniniet abonementu, lai turpinātu izmantot Lumia AI."
     },
     "FORM": {
       "CANCEL": "Atcelt",
@@ -576,8 +576,8 @@
         "TITLE": "Asistenti nav pieejami",
         "SUBTITLE": "Izveidot palīgu, lai sniegtu lietotājiem ātras un precīzas atbildes. Tas var mācīties no Jūsu palīdzības rakstiem un iepriekšējām sarunām.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistant",
-          "NOTE": "Captain Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Lumia AI Assistant",
+          "NOTE": "Lumia AI Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -798,8 +798,8 @@
         "TITLE": "Dokumenti nav pieejami",
         "SUBTITLE": "Jūsu palīgs izmanto dokumentus, lai izveidotu bieži uzdotos jautājumus. Jūs varat importēt dokumentus, lai nodrošinātu kontekstu savam palīgam.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Document",
-          "NOTE": "A document in Captain serves as a knowledge resource for the assistant. By connecting your help center or guides, Captain can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Lumia AI Document",
+          "NOTE": "A document in Lumia AI serves as a knowledge resource for the assistant. By connecting your help center or guides, Lumia AI can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -963,7 +963,7 @@
         "ALL": "Visi"
       },
       "PENDING_BANNER": {
-        "TITLE": "Captain has found some FAQs your customers were looking for.",
+        "TITLE": "Lumia AI has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Pievienot jautājumu un tā atbildi zināšanu bāzei, kā arī izvēlēties asistentu, ar kuru tas būs saistīts.",
@@ -1001,8 +1001,8 @@
         "SUBTITLE": "Bieži uzdotie jautājumi palīdz Jūsu asistentam sniegt ātras un precīzas atbildes uz Jūsu klientu jautājumiem. Tos var ģenerēt automātiski no jūsu satura vai pievienot manuāli.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "Lumia AI FAQ",
+          "NOTE": "Lumia AI FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },

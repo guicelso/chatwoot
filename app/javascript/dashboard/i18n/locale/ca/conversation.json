@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Ho sentim, no podem trobar la conversa. Torneu-ho a provar",
     "SELECT_A_CONVERSATION": "Si us plau, selecciona una conversa al panell de l’esquerra",
     "CSAT_REPLY_MESSAGE": "Si us plau, valoreu la conversa",
-    "404": "Ho sentim, no podem trobar la conversa. Torneu-ho a provar",
     "SWITCH_VIEW_LAYOUT": "Canvia el disseny",
     "DASHBOARD_APP_TAB_MESSAGES": "Missatges",
     "UNVERIFIED_SESSION": "La identitat d'aquest usuari no està verificada",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "La signatura del missatge no està configurada, configura-la a la configuració del perfil.",
-      "COPILOT_MSG_INPUT": "Dóna instruccions addicionals a copilot o pregunta qualsevol altra cosa... Prem enter per enviar un seguiment",
+      "COPILOT_MSG_INPUT": "Dóna instruccions addicionals a Lumia AI o pregunta qualsevol altra cosa... Prem enter per enviar un seguiment",
       "CLICK_HERE": "Fes clic aquí per actualitzar",
       "WHATSAPP_TEMPLATES": "Plantilles de Whatsapp"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Arrossega i deixa anar aquí per adjuntar-lo",
       "START_AUDIO_RECORDING": "Inicia la gravació d'àudio",
       "STOP_AUDIO_RECORDING": "Atura la gravació d'àudio",
-      "COPILOT_THINKING": "Copilot està pensant",
+      "COPILOT_THINKING": "Lumia AI està pensant",
       "EMAIL_HEAD": {
         "TO": "A",
         "ADD_BCC": "Afegeix cco",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "Contacte",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Incoming call",

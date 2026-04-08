@@ -310,7 +310,7 @@
     "ACTIVE": "Aktiv",
     "COMPANIES": "Şirkətlər",
     "ALL_COMPANIES": "Bütün Şirkətlər",
-    "CAPTAIN": "Captain",
+    "CAPTAIN": "Lumia AI",
     "CAPTAIN_ASSISTANTS": "Köməkçilər",
     "CAPTAIN_DOCUMENTS": "Sənədlər",
     "CAPTAIN_RESPONSES": "Tez-tez verilən suallar",
@@ -386,9 +386,9 @@
   "CAPTAIN_SETTINGS": {
     "TITLE": "Kapitan Ayarları",
     "DESCRIPTION": "Kapitan üçün AI modellərinizi və xüsusiyyətlərinizi konfiqurasiya edin. Kapitan kredit əsaslı ödəniş sistemi ilə işləyir, seçilmiş modelə əsasən Kapitanın hər hərəkəti üçün kreditlər hesablanacaq.",
-    "LOADING": "Captain konfiqurasiyası yüklənir...",
-    "LINK_TEXT": "Captain Krediti haqqında daha çox məlumat əldə edin",
-    "NOT_ENABLED": "Captain hesabınız üçün aktiv deyil. Captain xüsusiyyətlərinə daxil olmaq üçün planınızı yüksəldin.",
+    "LOADING": "Lumia AI konfiqurasiyası yüklənir...",
+    "LINK_TEXT": "Lumia AI Krediti haqqında daha çox məlumat əldə edin",
+    "NOT_ENABLED": "Lumia AI hesabınız üçün aktiv deyil. Lumia AI xüsusiyyətlərinə daxil olmaq üçün planınızı yüksəldin.",
     "MODEL_CONFIG": {
       "TITLE": "Model Konfiqurasiyası",
       "DESCRIPTION": "Fərqli xüsusiyyətlər üçün AI modellərini seçin.",
@@ -427,8 +427,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Captain parametrləri uğurla yeniləndi.",
-      "ERROR": "Captain parametrlərini yeniləmək alınmadı. Zəhmət olmasa, yenidən cəhd edin."
+      "SUCCESS": "Lumia AI parametrləri uğurla yeniləndi.",
+      "ERROR": "Lumia AI parametrlərini yeniləmək alınmadı. Zəhmət olmasa, yenidən cəhd edin."
     }
   },
   "BILLING_SETTINGS": {
@@ -464,7 +464,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Daha çox kredit al",
       "MODAL_TITLE": "AI Kreditləri Al",
-      "MODAL_DESCRIPTION": "Captain AI üçün əlavə kreditlər satın alın.",
+      "MODAL_DESCRIPTION": "Lumia AI üçün əlavə kreditlər satın alın.",
       "CREDITS": "KREDİTLƏR",
       "ONE_TIME": "bir dəfəlik",
       "POPULAR": "Ən Populyar",

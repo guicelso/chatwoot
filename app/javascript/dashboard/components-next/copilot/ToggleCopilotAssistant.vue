@@ -3,6 +3,7 @@ import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 import Button from 'dashboard/components-next/button/Button.vue';
+import Icon from 'dashboard/components-next/icon/Icon.vue';
 import DropdownContainer from 'next/dropdown-menu/base/DropdownContainer.vue';
 import DropdownSection from 'next/dropdown-menu/base/DropdownSection.vue';
 import DropdownBody from 'next/dropdown-menu/base/DropdownBody.vue';
@@ -36,13 +37,16 @@ const activeAssistantLabel = computed(() => {
       <template #trigger="{ toggle, isOpen }">
         <Button
           :label="activeAssistantLabel"
-          icon="i-woot-captain"
           ghost
           slate
           xs
           :class="{ 'bg-n-alpha-2': isOpen }"
           @click="toggle"
-        />
+        >
+          <template #icon>
+            <Icon icon="i-woot-captain" class="text-n-slate-11 size-4" />
+          </template>
+        </Button>
       </template>
       <DropdownBody class="bottom-9 min-w-64 z-50" strong>
         <DropdownSection class="[&>ul]:max-h-80">

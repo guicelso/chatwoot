@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Đang tải nội dung...",
       "404": "Không có bài viết nào phù hợp với tìm kiếm của bạn 🔍",
+      "LOADING_MESSAGE": "Đang tải nội dung...",
       "NO_ARTICLES": "Không có bài viết nào có sẵn",
       "HEADERS": {
         "TITLE": "Tiêu đề",

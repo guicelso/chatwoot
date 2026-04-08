@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "מצטערים, לא מצאנו את השיחה המבוקשת, נא לנסות שוב",
     "SELECT_A_CONVERSATION": "אנא בחר שיחה מהחלונית השמאלית",
     "CSAT_REPLY_MESSAGE": "נא דרג שיחה זו",
-    "404": "מצטערים, לא מצאנו את השיחה המבוקשת, נא לנסות שוב",
     "SWITCH_VIEW_LAYOUT": "החלף תצוגה",
     "DASHBOARD_APP_TAB_MESSAGES": "הודעות",
     "UNVERIFIED_SESSION": "זהות המשתמש לא מְאוּמָתת",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "חתימת הודעה אינה מוגדרת, נא הגדר אותה בהגדרות הפרופיל.",
-      "COPILOT_MSG_INPUT": "תן ל-Copilot הנחיות נוספות, או שאל משהו נוסף... לחץ אנטר כדי לשלוח המשך",
+      "COPILOT_MSG_INPUT": "תן ל-Lumia AI הנחיות נוספות, או שאל משהו נוסף... לחץ אנטר כדי לשלוח המשך",
       "CLICK_HERE": "לחץ כאן כדי לעדכן",
       "WHATSAPP_TEMPLATES": "תבניות וואטסאפ"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "גרור ושחרר כאן להוספת קובץ מצורף",
       "START_AUDIO_RECORDING": "התחל הקלטת אודיו",
       "STOP_AUDIO_RECORDING": "עצור הקלטת אודיו",
-      "COPILOT_THINKING": "Copilot חושב",
+      "COPILOT_THINKING": "Lumia AI חושב",
       "EMAIL_HEAD": {
         "TO": "אל",
         "ADD_BCC": "הוסף bcc",

@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Nie masz żadnych nieprzeczytanych powiadomień"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Ładowanie powiadomień...",
       "404": "Nie znaleziono powiadomień",
+      "LOADING_MESSAGE": "Ładowanie powiadomień...",
       "TABLE_HEADER": [
         "Nazwisko",
         "Numer telefonu",

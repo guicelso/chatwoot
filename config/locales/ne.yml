@@ -329,8 +329,8 @@ ne:
       description: 'तपाईंको कुराकानी विन्डोबाट सिधै Linear मा मुद्दा सिर्जना गर्नुहोस्। वैकल्पिक रूपमा, अझ सहज र प्रभावकारी ट्र्याकिङका लागि अवस्थित Linear मुद्दा जोड्नुहोस्।.'
     notion:
       name: 'Notion'
-      short_description: 'डेटाबेस, कागजात र पृष्ठहरू सिधै Captain सँग एकीकृत गर्नुहोस्।.'
-      description: 'आफ्नो Notion कार्यक्षेत्र जडान गर्नुहोस् ताकि Captain ले तपाईंका डेटाबेस, कागजात र पृष्ठबाट सामग्री प्रयोग गरी बौद्धिक जवाफहरू तयार पार्न र थप सान्दर्भिक ग्राहक सहायता दिन सकोस्।.'
+      short_description: 'डेटाबेस, कागजात र पृष्ठहरू सिधै Lumia AI सँग एकीकृत गर्नुहोस्।.'
+      description: 'आफ्नो Notion कार्यक्षेत्र जडान गर्नुहोस् ताकि Lumia AI ले तपाईंका डेटाबेस, कागजात र पृष्ठबाट सामग्री प्रयोग गरी बौद्धिक जवाफहरू तयार पार्न र थप सान्दर्भिक ग्राहक सहायता दिन सकोस्।.'
     shopify:
       name: 'Shopify'
       short_description: 'आफ्नो Shopify स्टोरबाट अर्डर विवरण तथा ग्राहक जानकारी पहुँच गर्नुहोस्।.'
@@ -341,11 +341,11 @@ ne:
       description: 'तपाईंका सम्पर्क र कुराकानीहरू LeadSquared CRM सँग मिलाउनुहोस्। नयाँ सम्पर्क थप्दा यो एकीकरणले स्वचालित रूपमा LeadSquared मा लिड सिर्जना गर्छ र कुराकानी गतिविधि लग गर्छ, जसले तपाईंको बिक्री टोलीलाई पूर्ण सन्दर्भ दिन्छ।.'
   captain:
     copilot_message_required: सन्देश आवश्यक छ
-    copilot_error: 'Please connect an assistant to this inbox to use Copilot'
-    copilot_limit: 'तपाईंका Copilot क्रेडिट सकिएका छन्। तपाईं बिलिङ सेक्सनबाट थप क्रेडिट किन्न सक्नुहुन्छ।.'
-    upgrade: 'Captain AI सक्षम गर्न आफ्नो योजना सुधार्नुहोस्'
-    disabled: 'यस खातामा Captain AI अक्षम गरिएको छ।.'
-    api_key_missing: 'Captain AI API कुञ्जी सेटअप गरिएको छैन।.'
+    copilot_error: 'Please connect an assistant to this inbox to use Lumia AI'
+    copilot_limit: 'तपाईंका Lumia AI क्रेडिट सकिएका छन्। तपाईं बिलिङ सेक्सनबाट थप क्रेडिट किन्न सक्नुहुन्छ।.'
+    upgrade: 'Lumia AI सक्षम गर्न आफ्नो योजना सुधार्नुहोस्'
+    disabled: 'यस खातामा Lumia AI अक्षम गरिएको छ।.'
+    api_key_missing: 'Lumia AI API कुञ्जी सेटअप गरिएको छैन।.'
     copilot:
       using_tool: 'उपकरण %{function_name} प्रयोग गर्दै'
       completed_tool_call: '%{function_name} उपकरण कल पूरा भयो'

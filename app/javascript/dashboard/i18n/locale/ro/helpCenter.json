@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Se încarcă articolele...",
       "404": "Nici un articol nu corespunde căutării tale 🔍",
+      "LOADING_MESSAGE": "Se încarcă articolele...",
       "NO_ARTICLES": "Nu există articole disponibile",
       "HEADERS": {
         "TITLE": "Titlu",

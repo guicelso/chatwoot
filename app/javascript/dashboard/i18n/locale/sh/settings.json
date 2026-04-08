@@ -385,10 +385,10 @@
   },
   "CAPTAIN_SETTINGS": {
     "TITLE": "Postavke Kapetana",
-    "DESCRIPTION": "Konfigurirajte svoje AI modele i značajke za Captain. Captain koristi naplatu temeljenu na kreditima, bit ćete naplaćeni kredite za svaku radnju koju Captain izvrši na temelju odabranog modela.",
-    "LOADING": "Loading Captain configuration...",
-    "LINK_TEXT": "Learn more about Captain Credits",
-    "NOT_ENABLED": "Captain nije omogućen za vaš račun. Molimo nadogradite svoj plan da biste pristupili značajkama Captaina.",
+    "DESCRIPTION": "Konfigurirajte svoje AI modele i značajke za Lumia AI. Lumia AI koristi naplatu temeljenu na kreditima, bit ćete naplaćeni kredite za svaku radnju koju Lumia AI izvrši na temelju odabranog modela.",
+    "LOADING": "Loading Lumia AI configuration...",
+    "LINK_TEXT": "Learn more about Lumia AI Credits",
+    "NOT_ENABLED": "Lumia AI nije omogućen za vaš račun. Molimo nadogradite svoj plan da biste pristupili značajkama Lumia AIa.",
     "MODEL_CONFIG": {
       "TITLE": "Konfiguracija modela",
       "DESCRIPTION": "Odaberite AI modele za različite značajke.",
@@ -427,8 +427,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Captain settings updated successfully.",
-      "ERROR": "Failed to update Captain settings. Please try again."
+      "SUCCESS": "Lumia AI settings updated successfully.",
+      "ERROR": "Failed to update Lumia AI settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -448,11 +448,11 @@
     },
     "CAPTAIN": {
       "TITLE": "Kapetan",
-      "DESCRIPTION": "Manage usage and credits for Captain AI.",
+      "DESCRIPTION": "Manage usage and credits for Lumia AI.",
       "BUTTON_TXT": "Kupi više kredita",
       "DOCUMENTS": "Dokumenti",
       "RESPONSES": "Responses",
-      "UPGRADE": "Captain nije dostupan na besplatnom planu, nadogradi sada da bi dobio pristup asistentima, copilot i više.",
+      "UPGRADE": "Lumia AI nije dostupan na besplatnom planu, nadogradi sada da bi dobio pristup asistentima, Lumia AI i više.",
       "REFRESH_CREDITS": "Osvježi"
     },
     "CHAT_WITH_US": {
@@ -464,7 +464,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Kupi više kredita",
       "MODAL_TITLE": "Kupi AI kredite",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for Lumia AI.",
       "CREDITS": "KREDITI",
       "ONE_TIME": "jednokratno",
       "POPULAR": "Najpopularnije",

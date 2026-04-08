@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "You have no unread notifications"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Načítání upozornění...",
       "404": "Žádná upozornění",
+      "LOADING_MESSAGE": "Načítání upozornění...",
       "TABLE_HEADER": [
         "Název",
         "Telefonní číslo",

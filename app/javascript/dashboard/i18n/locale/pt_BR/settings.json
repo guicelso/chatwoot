@@ -310,7 +310,7 @@
     "ACTIVE": "Ativo",
     "COMPANIES": "Empresas",
     "ALL_COMPANIES": "Todas as empresas",
-    "CAPTAIN": "Capitão",
+    "CAPTAIN": "Lumia AI",
     "CAPTAIN_ASSISTANTS": "Assistentes",
     "CAPTAIN_DOCUMENTS": "Documentos",
     "CAPTAIN_RESPONSES": "FAQs",
@@ -380,15 +380,15 @@
     },
     "DOCS": "Ler documentos",
     "SECURITY": "Segurança",
-    "CAPTAIN_AI": "Capitão",
+    "CAPTAIN_AI": "Lumia AI",
     "CONVERSATION_WORKFLOW": "Fluxo de Conversa"
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Configurações do Capitão",
-    "DESCRIPTION": "Configure seus modelos e recursos de IA para o Capitão. O Capitão utiliza um modelo de cobrança baseado em créditos; você será cobrado em créditos por cada ação que o Capitão realizar, dependendo do modelo selecionado.",
-    "LOADING": "Carregando configurações do Capitão...",
-    "LINK_TEXT": "Saiba mais sobre os Créditos do Capitão",
-    "NOT_ENABLED": "O Capitão não está habilitado para a sua conta. Atualize seu plano para acessar os recursos do Capitão.",
+    "TITLE": "Configurações do Lumia AI",
+    "DESCRIPTION": "Configure seus modelos e recursos de IA para o Lumia AI. O Lumia AI utiliza um modelo de cobrança baseado em créditos; você será cobrado em créditos por cada ação que o Lumia AI realizar, dependendo do modelo selecionado.",
+    "LOADING": "Carregando configurações do Lumia AI...",
+    "LINK_TEXT": "Saiba mais sobre os Créditos do Lumia AI",
+    "NOT_ENABLED": "O Lumia AI não está habilitado para a sua conta. Atualize seu plano para acessar os recursos do Lumia AI.",
     "MODEL_CONFIG": {
       "TITLE": "Configuração do Modelo",
       "DESCRIPTION": "Selecione modelos de IA para diferentes recursos.",
@@ -404,7 +404,7 @@
         "DESCRIPTION": "Gerencia respostas automatizadas, resumos de conversas e sugestões inteligentes de resposta para interações com clientes."
       },
       "COPILOT": {
-        "TITLE": "Copiloto",
+        "TITLE": "Lumia AI",
         "DESCRIPTION": "Fornece sugestões contextuais em tempo real, recomendações da base de conhecimento e insights proativos durante as conversas."
       }
     },
@@ -427,8 +427,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Configurações do Capitão atualizadas com sucesso.",
-      "ERROR": "Falha ao atualizar as configurações do Capitão. Por favor, tente novamente."
+      "SUCCESS": "Configurações do Lumia AI atualizadas com sucesso.",
+      "ERROR": "Falha ao atualizar as configurações do Lumia AI. Por favor, tente novamente."
     }
   },
   "BILLING_SETTINGS": {
@@ -447,12 +447,12 @@
       "BUTTON_TXT": "Ir para o portal de cobrança"
     },
     "CAPTAIN": {
-      "TITLE": "Capitão",
-      "DESCRIPTION": "Gerenciar uso e créditos para o Captain AI.",
+      "TITLE": "Lumia AI",
+      "DESCRIPTION": "Gerenciar uso e créditos para o Lumia AI.",
       "BUTTON_TXT": "Comprar mais créditos",
       "DOCUMENTS": "Documentos",
       "RESPONSES": "Respostas",
-      "UPGRADE": "O capitão não está disponível no plano gratuito, faça o upgrade para ter acesso aos assistentes, co-piloto e muito mais.",
+      "UPGRADE": "O Lumia AI não está disponível no plano gratuito, faça o upgrade para ter acesso aos assistentes, Lumia AIo e muito mais.",
       "REFRESH_CREDITS": "Atualizar"
     },
     "CHAT_WITH_US": {
@@ -464,7 +464,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Comprar mais créditos",
       "MODAL_TITLE": "Comprar Créditos de IA",
-      "MODAL_DESCRIPTION": "Comprar créditos adicionais para o Capitão IA.",
+      "MODAL_DESCRIPTION": "Comprar créditos adicionais para o Lumia AI.",
       "CREDITS": "CRÉDITOS",
       "ONE_TIME": "único",
       "POPULAR": "Mais populares",

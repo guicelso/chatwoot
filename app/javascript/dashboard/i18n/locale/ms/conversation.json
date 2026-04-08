@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Maaf, kami tidak dapat menemui perbualan tersebut. Sila cuba lagi",
     "SELECT_A_CONVERSATION": "Sila pilih perbualan dari panel kiri",
     "CSAT_REPLY_MESSAGE": "Sila nilai perbualan ini",
-    "404": "Maaf, kami tidak dapat menemui perbualan tersebut. Sila cuba lagi",
     "SWITCH_VIEW_LAYOUT": "Tukar susun atur",
     "DASHBOARD_APP_TAB_MESSAGES": "Mesej",
     "UNVERIFIED_SESSION": "Identiti pengguna ini belum disahkan",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "Anda hanya boleh membalas menggunakan mesej templat disebabkan had tetingkap mesej 24 jam",
       "MESSAGING_RESTRICTED_API": "Anda hanya boleh membalas menggunakan mesej templat disebabkan had tetingkap mesej",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Tandatangan mesej belum dikonfigurasikan, sila konfigurasikan dalam tetapan profil.",
-      "COPILOT_MSG_INPUT": "Berikan arahan tambahan kepada copilot, atau tanya apa-apa lagi... Tekan enter untuk hantar susulan",
+      "COPILOT_MSG_INPUT": "Berikan arahan tambahan kepada Lumia AI, atau tanya apa-apa lagi... Tekan enter untuk hantar susulan",
       "CLICK_HERE": "Klik di sini untuk kemas kini",
       "WHATSAPP_TEMPLATES": "Templat Whatsapp"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Seret dan lepaskan di sini untuk melampirkan",
       "START_AUDIO_RECORDING": "Mula rakaman audio",
       "STOP_AUDIO_RECORDING": "Hentikan rakaman audio",
-      "COPILOT_THINKING": "Copilot sedang berfikir",
+      "COPILOT_THINKING": "Lumia AI sedang berfikir",
       "EMAIL_HEAD": {
         "TO": "TO",
         "ADD_BCC": "Tambah bcc",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "Hubungi",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Panggilan masuk",

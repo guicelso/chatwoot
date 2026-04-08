@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Turite neperskaitytų perspėjimų"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Perspėjimai parsiunčiami...",
       "404": "Nėra Perspėjimų",
+      "LOADING_MESSAGE": "Perspėjimai parsiunčiami...",
       "TABLE_HEADER": [
         "Vardas",
         "Telefono numeris",

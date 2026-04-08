@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "このグループにはアクティブな通知がありません。",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "表示",
       "LOADING": "通知を取得中",
-      "404": "このグループにはアクティブな通知がありません。",
       "NO_NOTIFICATIONS": "通知はありません",
       "NOTE": "すべての購読中のインボックスからの通知",
       "NO_MESSAGES_AVAILABLE": "おっと！メッセージを取得できませんでした",

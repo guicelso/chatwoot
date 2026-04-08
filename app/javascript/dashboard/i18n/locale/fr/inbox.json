@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Il n'y a aucune notification active dans ce groupe.",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "Display",
       "LOADING": "Chargement des notifications",
-      "404": "Il n'y a aucune notification active dans ce groupe.",
       "NO_NOTIFICATIONS": "Aucune notification",
       "NOTE": "Notifications from all subscribed inboxes",
       "NO_MESSAGES_AVAILABLE": "Oops! Not able to fetch messages",

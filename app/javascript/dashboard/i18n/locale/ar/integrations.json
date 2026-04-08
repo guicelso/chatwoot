@@ -398,13 +398,13 @@
       "EMPTY_LIST": "لم يتم العثور على مساعدين، يرجى إنشاء واحد للبدء"
     },
     "COPILOT": {
-      "TITLE": "Copilot",
+      "TITLE": "Lumia AI",
       "TRY_THESE_PROMPTS": "Try these prompts",
-      "PANEL_TITLE": "ابدأ مع Copilot",
-      "KICK_OFF_MESSAGE": "هل تحتاج إلى ملخص سريع، ترغب في مراجعة المحادثات السابقة، أو صياغة رد أفضل؟ Copilot هنا لتسريع الأمور.",
+      "PANEL_TITLE": "ابدأ مع Lumia AI",
+      "KICK_OFF_MESSAGE": "هل تحتاج إلى ملخص سريع، ترغب في مراجعة المحادثات السابقة، أو صياغة رد أفضل؟ Lumia AI هنا لتسريع الأمور.",
       "SEND_MESSAGE": "إرسال الرسالة...",
       "EMPTY_MESSAGE": "حدث خطأ أثناء توليد الاستجابة. يرجى المحاولة مرة أخرى.",
-      "LOADER": "يقوم Captain بالتفكير",
+      "LOADER": "يقوم Lumia AI بالتفكير",
       "YOU": "أنت",
       "USE": "استخدام هذا",
       "RESET": "إعادة تعيين",
@@ -439,23 +439,23 @@
       "MESSAGE_PLACEHOLDER": "أكتب رسالتك...",
       "HEADER": "ساحة اللعب",
       "DESCRIPTION": "استخدم هذه الساحة لإرسال رسائل إلى مساعدك والتحقق مما إذا كان يرد بدقة وسرعة وبالنغمة التي تتوقعها.",
-      "CREDIT_NOTE": "الرسائل المرسلة هنا ستُحتسب ضمن رصيد Captain الخاص بك."
+      "CREDIT_NOTE": "الرسائل المرسلة هنا ستُحتسب ضمن رصيد Lumia AI الخاص بك."
     },
     "PAYWALL": {
-      "TITLE": "قم بالترقية لاستخدام Captain AI",
-      "AVAILABLE_ON": "Captain غير متاح على الخطة المجانية.",
-      "UPGRADE_PROMPT": "قم بترقية خطتك للحصول على الوصول إلى مساعدينا، وcopilot، والمزيد.",
+      "TITLE": "قم بالترقية لاستخدام Lumia AI",
+      "AVAILABLE_ON": "Lumia AI غير متاح على الخطة المجانية.",
+      "UPGRADE_PROMPT": "قم بترقية خطتك للحصول على الوصول إلى مساعدينا، وLumia AI، والمزيد.",
       "UPGRADE_NOW": "Upgrade now",
       "CANCEL_ANYTIME": "You can change or cancel your plan anytime"
     },
     "ENTERPRISE_PAYWALL": {
       "AVAILABLE_ON": "ولا يتوفر الكابتن AI إلا في خطط المؤسسة.",
-      "UPGRADE_PROMPT": "قم بترقية خطتك للحصول على الوصول إلى مساعدينا، وcopilot، والمزيد.",
+      "UPGRADE_PROMPT": "قم بترقية خطتك للحصول على الوصول إلى مساعدينا، وLumia AI، والمزيد.",
       "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
     },
     "BANNER": {
-      "RESPONSES": "لقد استخدمت أكثر من 80٪ من حد الاستجابات الخاص بك. للاستمرار في استخدام Captain AI، يرجى الترقية.",
-      "DOCUMENTS": "تم الوصول إلى حد المستندات. قم بالترقية للاستمرار في استخدام Captain AI."
+      "RESPONSES": "لقد استخدمت أكثر من 80٪ من حد الاستجابات الخاص بك. للاستمرار في استخدام Lumia AI، يرجى الترقية.",
+      "DOCUMENTS": "تم الوصول إلى حد المستندات. قم بالترقية للاستمرار في استخدام Lumia AI."
     },
     "FORM": {
       "CANCEL": "إلغاء",
@@ -576,8 +576,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistant",
-          "NOTE": "Captain Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Lumia AI Assistant",
+          "NOTE": "Lumia AI Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -798,8 +798,8 @@
         "TITLE": "No documents available",
         "SUBTITLE": "Documents are used by your assistant to generate FAQs. You can import documents to provide context for your assistant.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Document",
-          "NOTE": "A document in Captain serves as a knowledge resource for the assistant. By connecting your help center or guides, Captain can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Lumia AI Document",
+          "NOTE": "A document in Lumia AI serves as a knowledge resource for the assistant. By connecting your help center or guides, Lumia AI can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -963,7 +963,7 @@
         "ALL": "الكل"
       },
       "PENDING_BANNER": {
-        "TITLE": "Captain has found some FAQs your customers were looking for.",
+        "TITLE": "Lumia AI has found some FAQs your customers were looking for.",
         "ACTION": "Click here to review"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -1001,8 +1001,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "Lumia AI FAQ",
+          "NOTE": "Lumia AI FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },

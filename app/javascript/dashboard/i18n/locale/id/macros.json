@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Tidak ditemukan makro",
       "TABLE_HEADER": {
         "NAME": "Nama",
         "CREATED BY": "Dibuat oleh",
         "LAST_UPDATED_BY": "Terakhir diperbarui oleh",
         "VISIBILITY": "Visibilitas",
         "ACTIONS": "Aksi"
-      },
-      "404": "Tidak ditemukan makro"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Hapus makro",

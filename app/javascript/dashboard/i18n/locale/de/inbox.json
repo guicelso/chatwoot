@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Es gibt keine aktiven Benachrichtigungen in dieser Gruppe.",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "Anzeigen",
       "LOADING": "Benachrichtigungen werden abgerufen",
-      "404": "Es gibt keine aktiven Benachrichtigungen in dieser Gruppe.",
       "NO_NOTIFICATIONS": "Keine Benachrichtigungen",
       "NOTE": "Benachrichtigungen aus allen abonnierten Posteingängen",
       "NO_MESSAGES_AVAILABLE": "Hoppla! Nachrichten konnten nicht abgerufen werden",

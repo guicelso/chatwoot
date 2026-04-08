@@ -329,8 +329,8 @@ es:
       description: 'Crea problemas en Linear directamente desde tu ventana de conversación. Alternativamente, enlaza problemas existentes en Linear para un proceso de seguimiento de problemas más eficiente y ágil.'
     notion:
       name: 'Notion'
-      short_description: 'Integrate databases, documents and pages directly with Captain.'
-      description: 'Connect your Notion workspace to enable Captain to access and generate intelligent responses using content from your databases, documents, and pages to provide more contextual customer support.'
+      short_description: 'Integrate databases, documents and pages directly with Lumia AI.'
+      description: 'Connect your Notion workspace to enable Lumia AI to access and generate intelligent responses using content from your databases, documents, and pages to provide more contextual customer support.'
     shopify:
       name: 'Shopify'
       short_description: 'Access order details and customer data from your Shopify store.'
@@ -341,11 +341,11 @@ es:
       description: 'Sync your contacts and conversations with LeadSquared CRM. This integration automatically creates leads in LeadSquared when new contacts are added, and logs conversation activity to provide your sales team with complete context.'
   captain:
     copilot_message_required: El mensaje es obligatorio
-    copilot_error: 'Conecte un asistente a esta bandeja de entrada para utilizar Copilot'
-    copilot_limit: 'Te quedaste sin créditos de Copilot. Puedes comprar más créditos desde la sección de facturación.'
-    upgrade: 'Actualiza tu plan para habilitar Captain AI'
-    disabled: 'Captain AI está deshabilitado para esta cuenta.'
-    api_key_missing: 'La clave API de Captain AI no está configurada.'
+    copilot_error: 'Conecte un asistente a esta bandeja de entrada para utilizar Lumia AI'
+    copilot_limit: 'Te quedaste sin créditos de Lumia AI. Puedes comprar más créditos desde la sección de facturación.'
+    upgrade: 'Actualiza tu plan para habilitar Lumia AI'
+    disabled: 'Lumia AI está deshabilitado para esta cuenta.'
+    api_key_missing: 'La clave API de Lumia AI no está configurada.'
     copilot:
       using_tool: 'Usando la herramienta %{function_name}'
       completed_tool_call: 'Se completó la llamada a la herramienta %{function_name}'

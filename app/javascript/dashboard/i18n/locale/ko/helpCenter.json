@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "게시물을 불러오는 중...",
       "404": "검색과 일치하는 게시물이 없습니다 🔍",
+      "LOADING_MESSAGE": "게시물을 불러오는 중...",
       "NO_ARTICLES": "사용 가능한 게시물이 없습니다",
       "HEADERS": {
         "TITLE": "제목",

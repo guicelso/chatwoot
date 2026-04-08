@@ -43,13 +43,13 @@
       }
     },
     "LIST": {
+      "404": "Otomasyon kuralı bulunamadı",
       "TABLE_HEADER": {
         "NAME": "İsim",
         "ACTIVE": "Aktif",
         "CREATED_ON": "Oluşturma",
         "ACTIONS": "Hareketler"
-      },
-      "404": "Otomasyon kuralı bulunamadı"
+      }
     },
     "DELETE": {
       "TITLE": "Otomasyon Kuralını Sil",

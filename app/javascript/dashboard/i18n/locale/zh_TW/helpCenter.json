@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "正在載入文章...",
       "404": "沒有找到您要搜尋的文章 🔍",
+      "LOADING_MESSAGE": "正在載入文章...",
       "NO_ARTICLES": "沒有可用的文章",
       "HEADERS": {
         "TITLE": "標題",

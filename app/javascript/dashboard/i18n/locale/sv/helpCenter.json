@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Laddar artiklar...",
       "404": "No articles matches your search 🔍",
+      "LOADING_MESSAGE": "Laddar artiklar...",
       "NO_ARTICLES": "Det finns inga tillgängliga artiklar",
       "HEADERS": {
         "TITLE": "Title",

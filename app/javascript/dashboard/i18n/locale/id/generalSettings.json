@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Anda tidak memiliki notifikasi belum dibaca"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Memuat notifikasi...",
       "404": "Tidak Ada Notifikasi",
+      "LOADING_MESSAGE": "Memuat notifikasi...",
       "TABLE_HEADER": [
         "Nama",
         "Nomor Telepon",

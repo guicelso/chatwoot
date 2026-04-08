@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "You have no unread notifications"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Laster varsler...",
       "404": "Ingen varsler",
+      "LOADING_MESSAGE": "Laster varsler...",
       "TABLE_HEADER": [
         "Navn",
         "Telefonnummer",

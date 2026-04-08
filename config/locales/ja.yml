@@ -329,8 +329,8 @@ ja:
       description: '会話ウィンドウから直接Linearに問題を作成します。あるいは、既存のLinearの問題をリンクして、より効率的な問題追跡プロセスを実現します。'
     notion:
       name: 'Notion'
-      short_description: 'Integrate databases, documents and pages directly with Captain.'
-      description: 'Connect your Notion workspace to enable Captain to access and generate intelligent responses using content from your databases, documents, and pages to provide more contextual customer support.'
+      short_description: 'Integrate databases, documents and pages directly with Lumia AI.'
+      description: 'Connect your Notion workspace to enable Lumia AI to access and generate intelligent responses using content from your databases, documents, and pages to provide more contextual customer support.'
     shopify:
       name: 'Shopify'
       short_description: 'Access order details and customer data from your Shopify store.'
@@ -341,11 +341,11 @@ ja:
       description: 'Sync your contacts and conversations with LeadSquared CRM. This integration automatically creates leads in LeadSquared when new contacts are added, and logs conversation activity to provide your sales team with complete context.'
   captain:
     copilot_message_required: メッセージは必須です
-    copilot_error: 'この受信トレイにアシスタントを接続してCopilotを使用してください'
-    copilot_limit: 'Copilot残高がありません。課金セクションからクレジットを追加購入することができます。'
-    upgrade: 'Captain AIを有効にするにはプランをアップグレードしてください。'
-    disabled: 'このアカウントではCaptain AIが無効化されています。'
-    api_key_missing: 'Captain AI APIキーが設定されていません。'
+    copilot_error: 'この受信トレイにアシスタントを接続してLumia AIを使用してください'
+    copilot_limit: 'Lumia AI残高がありません。課金セクションからクレジットを追加購入することができます。'
+    upgrade: 'Lumia AIを有効にするにはプランをアップグレードしてください。'
+    disabled: 'このアカウントではLumia AIが無効化されています。'
+    api_key_missing: 'Lumia AI APIキーが設定されていません。'
     copilot:
       using_tool: 'ツール%{function_name}を使用中'
       completed_tool_call: '%{function_name}ツール呼び出しが完了しました。'

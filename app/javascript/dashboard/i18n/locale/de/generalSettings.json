@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Sie haben keine ungelesenen Benachrichtigungen"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Benachrichtigungen werden geladen...",
       "404": "Keine Benachrichtigungen",
+      "LOADING_MESSAGE": "Benachrichtigungen werden geladen...",
       "TABLE_HEADER": [
         "Name",
         "Telefonnummer",

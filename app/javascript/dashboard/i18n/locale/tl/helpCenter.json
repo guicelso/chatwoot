@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Naglo-load ng mga artikulo...",
       "404": "Walang artikulo na tugma sa iyong hinanap 🔍",
+      "LOADING_MESSAGE": "Naglo-load ng mga artikulo...",
       "NO_ARTICLES": "Walang magagamit na mga artikulo",
       "HEADERS": {
         "TITLE": "Pamagat",

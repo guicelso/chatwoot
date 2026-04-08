@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "Tidak ada percakapan aktif di grup ini.",
       "TITLE": "Kotak Masuk Saya",
       "DISPLAY_DROPDOWN": "Tampilan",
       "LOADING": "Memuat notifikasi",
-      "404": "Tidak ada percakapan aktif di grup ini.",
       "NO_NOTIFICATIONS": "Tidak Ada Notifikasi",
       "NOTE": "Notifikasi dari semua kotak masuk yang Anda langgani",
       "NO_MESSAGES_AVAILABLE": "Aduh! Tidak dapat mengambil pesan",

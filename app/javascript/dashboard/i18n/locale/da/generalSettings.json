@@ -150,8 +150,8 @@
       "EMPTY_MESSAGE": "Du har ingen ulæste notifikationer"
     },
     "LIST": {
-      "LOADING_MESSAGE": "Indlæser notifikationer...",
       "404": "Ingen Notifikationer",
+      "LOADING_MESSAGE": "Indlæser notifikationer...",
       "TABLE_HEADER": [
         "Navn",
         "Telefonnummer",

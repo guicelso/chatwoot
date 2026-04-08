@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "No hi ha notificacions actives en aquest grup.",
       "TITLE": "My Inbox",
       "DISPLAY_DROPDOWN": "Visualització",
       "LOADING": "S'estan obtenint notificacions",
-      "404": "No hi ha notificacions actives en aquest grup.",
       "NO_NOTIFICATIONS": "No hi ha notificacions",
       "NOTE": "Notificacions de totes les safates d'entrada subscrites",
       "NO_MESSAGES_AVAILABLE": "Ups! No es poden recuperar els missatges",

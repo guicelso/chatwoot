@@ -384,11 +384,11 @@
     "CONVERSATION_WORKFLOW": "የውይይት ስርዓት"
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "የCaptain ቅንብሮች",
-    "DESCRIPTION": "ለCaptain የAI ሞዴሎችና ባለስልጣናት ያስተካክሉ። Captain በክሬዲት መሠረት ክፍያ ያደርጋል፣ ለእያንዳንዱ እርምጃ በሞዴሉ መሠረት ክሬዲቶች ይከፈላሉ።.",
-    "LOADING": "የCaptain ቅንብር እየጫነ ነው...",
-    "LINK_TEXT": "ስለ Captain ክሬዲቶች ተጨማሪ ያውቁ",
-    "NOT_ENABLED": "Captain ለመለያዎ አልተነሳሳም። ለCaptain ባለስልጣናት ባለስልጣናት እቅድዎን ያሻሽሉ።.",
+    "TITLE": "የLumia AI ቅንብሮች",
+    "DESCRIPTION": "ለLumia AI የAI ሞዴሎችና ባለስልጣናት ያስተካክሉ። Lumia AI በክሬዲት መሠረት ክፍያ ያደርጋል፣ ለእያንዳንዱ እርምጃ በሞዴሉ መሠረት ክሬዲቶች ይከፈላሉ።.",
+    "LOADING": "የLumia AI ቅንብር እየጫነ ነው...",
+    "LINK_TEXT": "ስለ Lumia AI ክሬዲቶች ተጨማሪ ያውቁ",
+    "NOT_ENABLED": "Lumia AI ለመለያዎ አልተነሳሳም። ለLumia AI ባለስልጣናት ባለስልጣናት እቅድዎን ያሻሽሉ።.",
     "MODEL_CONFIG": {
       "TITLE": "የሞዴል ቅንብር",
       "DESCRIPTION": "ለተለያዩ ባለስልጣናት AI ሞዴሎችን ይምረጡ።.",
@@ -427,8 +427,8 @@
       }
     },
     "API": {
-      "SUCCESS": "የCaptain ቅንብሮች በተሳካ ሁኔታ ተሻሽለዋል።.",
-      "ERROR": "የCaptain ቅንብሮችን ማሻሻያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።."
+      "SUCCESS": "የLumia AI ቅንብሮች በተሳካ ሁኔታ ተሻሽለዋል።.",
+      "ERROR": "የLumia AI ቅንብሮችን ማሻሻያ አልተሳካም። እባክዎ እንደገና ይሞክሩ።."
     }
   },
   "BILLING_SETTINGS": {
@@ -448,11 +448,11 @@
     },
     "CAPTAIN": {
       "TITLE": "ካፕቴን",
-      "DESCRIPTION": "ለCaptain AI አጠቃቀምና ክሬዲቶችን ያስተዳድሩ።.",
+      "DESCRIPTION": "ለLumia AI አጠቃቀምና ክሬዲቶችን ያስተዳድሩ።.",
       "BUTTON_TXT": "ተጨማሪ ክሬዲቶች ግዙ",
       "DOCUMENTS": "ሰነዶች",
       "RESPONSES": "Responses",
-      "UPGRADE": "Captain በነፃ እቅድ ላይ አይገኝም፣ አሁን ያሻሽሉ እና ለአስስታንት፣ ኮፓይሎት እና ሌሎች ያግኙ።.",
+      "UPGRADE": "Lumia AI በነፃ እቅድ ላይ አይገኝም፣ አሁን ያሻሽሉ እና ለአስስታንት፣ ኮፓይሎት እና ሌሎች ያግኙ።.",
       "REFRESH_CREDITS": "አዘምን"
     },
     "CHAT_WITH_US": {
@@ -464,7 +464,7 @@
     "TOPUP": {
       "BUY_CREDITS": "ተጨማሪ ክሬዲቶች ግዛ",
       "MODAL_TITLE": "AI ክሬዲቶች ግዛ",
-      "MODAL_DESCRIPTION": "Captain AI ለተጨማሪ ክሬዲቶች ግዛ.",
+      "MODAL_DESCRIPTION": "Lumia AI ለተጨማሪ ክሬዲቶች ግዛ.",
       "CREDITS": "ክሬዲቶች",
       "ONE_TIME": "አንድ ጊዜ",
       "POPULAR": "በጣም ተወዳጅ",

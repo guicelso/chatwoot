@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Nem találtunk makrót",
       "TABLE_HEADER": {
         "NAME": "Név",
         "CREATED BY": "Létrehozta",
         "LAST_UPDATED_BY": "Utoljára szerkesztette:",
         "VISIBILITY": "Láthatóság",
         "ACTIONS": "Műveletek"
-      },
-      "404": "Nem találtunk makrót"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Makró törlése",

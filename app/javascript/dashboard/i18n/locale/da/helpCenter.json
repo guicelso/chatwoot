@@ -331,8 +331,8 @@
       }
     },
     "TABLE": {
-      "LOADING_MESSAGE": "Indlæser artikler...",
       "404": "Ingen artikler matcher din søgning 🔍",
+      "LOADING_MESSAGE": "Indlæser artikler...",
       "NO_ARTICLES": "Der er ingen tilgængelige artikler",
       "HEADERS": {
         "TITLE": "Titel",

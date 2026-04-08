@@ -1,8 +1,8 @@
 {
   "CONVERSATION": {
+    "404": "Maalesef konuşmayı bulamıyoruz. Lütfen tekrar deneyin",
     "SELECT_A_CONVERSATION": "Lütfen sol bölmeden bir konuşma seçin",
     "CSAT_REPLY_MESSAGE": "Lütfen görüşmeyi değerlendirin",
-    "404": "Maalesef konuşmayı bulamıyoruz. Lütfen tekrar deneyin",
     "SWITCH_VIEW_LAYOUT": "Düzeni değiştir",
     "DASHBOARD_APP_TAB_MESSAGES": "Mesajlar",
     "UNVERIFIED_SESSION": "Bu kullanıcının kimliği doğrulanmadı",
@@ -194,7 +194,7 @@
       "MESSAGING_RESTRICTED_WHATSAPP": "You can only reply using a template message due to 24-hour message window restriction",
       "MESSAGING_RESTRICTED_API": "You can only reply using a template message due to message window restriction",
       "MESSAGE_SIGNATURE_NOT_CONFIGURED": "Mesaj imzası yapılandırılmamış, lütfen profil ayarlarında yapılandırın.",
-      "COPILOT_MSG_INPUT": "Copilot için ek komutlar verin veya başka bir şey sorun... Takip için gönder tuşuna basın",
+      "COPILOT_MSG_INPUT": "Lumia AI için ek komutlar verin veya başka bir şey sorun... Takip için gönder tuşuna basın",
       "CLICK_HERE": "Güncellemek için tıklayın",
       "WHATSAPP_TEMPLATES": "WhatsApp Şablonları"
     },
@@ -214,7 +214,7 @@
       "DRAG_DROP": "Eklemek için buraya sürükleyip bırakın",
       "START_AUDIO_RECORDING": "Ses kaydına başla",
       "STOP_AUDIO_RECORDING": "Ses kaydını durdur",
-      "COPILOT_THINKING": "Copilot düşünüyor",
+      "COPILOT_THINKING": "Lumia AI düşünüyor",
       "EMAIL_HEAD": {
         "TO": "TO",
         "ADD_BCC": "Bcc ekle",
@@ -286,7 +286,7 @@
     },
     "SIDEBAR": {
       "CONTACT": "İletişim",
-      "COPILOT": "Copilot"
+      "COPILOT": "Lumia AI"
     },
     "VOICE_WIDGET": {
       "INCOMING_CALL": "Gelen arama",

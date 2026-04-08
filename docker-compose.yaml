@@ -34,7 +34,7 @@ services:
       - mailhog
       - sidekiq
     ports:
-      - 3000:3000
+      - "${CHATWOOT_RAILS_PORT:-3000}:3000"
     env_file: .env
     environment:
       - VITE_DEV_SERVER_HOST=vite
@@ -74,7 +74,11 @@ services:
       - cache:/app/tmp/cache
       - bundle:/usr/local/bundle
     ports:
-      - "3036:3036" # Vite dev server
+      - "${CHATWOOT_VITE_PORT:-3036}:3036" # Vite dev server
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     environment:
       - VITE_DEV_SERVER_HOST=0.0.0.0
       - NODE_ENV=development
@@ -86,13 +90,13 @@ services:
     image: pgvector/pgvector:pg16
     restart: always
     ports:
-      - '5432:5432'
+      - "${CHATWOOT_POSTGRES_PORT:-5432}:5432"
     volumes:
       - postgres:/data/postgres
     environment:
       - POSTGRES_DB=chatwoot
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
 
   redis:
     image: redis:alpine
@@ -102,13 +106,13 @@ services:
     volumes:
       - redis:/data/redis
     ports:
-      - '6379:6379'
+      - "${CHATWOOT_REDIS_PORT:-6379}:6379"
 
   mailhog:
     image: mailhog/mailhog
     ports:
-      - 1025:1025
-      - 8025:8025
+      - "${CHATWOOT_MAILHOG_SMTP_PORT:-1025}:1025"
+      - "${CHATWOOT_MAILHOG_UI_PORT:-8025}:8025"
 
 volumes:
   postgres:

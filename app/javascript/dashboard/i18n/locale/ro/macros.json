@@ -28,14 +28,14 @@
       }
     },
     "LIST": {
+      "404": "Nu s-au găsit macrocomenzi",
       "TABLE_HEADER": {
         "NAME": "Nume",
         "CREATED BY": "Creat de",
         "LAST_UPDATED_BY": "Ultima actualizare de către",
         "VISIBILITY": "Vizibilitate",
         "ACTIONS": "Actiuni"
-      },
-      "404": "Nu s-au găsit macrocomenzi"
+      }
     },
     "DELETE": {
       "TOOLTIP": "Ștergerea macrocomenzii",

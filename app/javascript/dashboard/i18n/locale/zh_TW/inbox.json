@@ -1,10 +1,10 @@
 {
   "INBOX": {
     "LIST": {
+      "404": "此組中沒有活躍的通知。",
       "TITLE": "我的收件箱",
       "DISPLAY_DROPDOWN": "顯示",
       "LOADING": "正在獲取通知",
-      "404": "此組中沒有活躍的通知。",
       "NO_NOTIFICATIONS": "沒有通知",
       "NOTE": "來自所有訂閱收件箱的通知",
       "NO_MESSAGES_AVAILABLE": "哎呀！無法獲取訊息",
