@@ -1,0 +1,205 @@
+name: Build and Promote Image (chatwoot)
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      target_environment:
+        description: "Ambiente do GitOps que recebera a imagem"
+        required: true
+        default: homolog
+        type: choice
+        options:
+          - homolog
+          - prod
+      image_tag:
+        description: "Tag existente para promover sem rebuild. Ex.: e2bc7211"
+        required: false
+        type: string
+
+concurrency:
+  group: chatwoot-image-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref_name || github.run_id }}
+  cancel-in-progress: false
+
+env:
+  REGISTRY: harbor.codeform.com.br
+  IMAGE_REPOSITORY: plataforma/chatwoot
+  TARGET_IMAGE_REPOSITORY: harbor.codeform.com.br/plataforma/chatwoot
+  GITOPS_REPOSITORY: 2tabcriciuma/k8s-server
+
+jobs:
+  prepare:
+    name: Prepare Release
+    runs-on: self-hosted
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == 'main')
+    outputs:
+      image-tag: ${{ steps.meta.outputs.image-tag }}
+      should-build: ${{ steps.meta.outputs.should-build }}
+      target-environment: ${{ steps.meta.outputs.target-environment }}
+    steps:
+      - name: Checkout codigo
+        uses: actions/checkout@v6.0.2
+
+      - name: Definir metadados do release
+        id: meta
+        run: |
+          set -euo pipefail
+
+          TARGET_ENVIRONMENT="homolog"
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            TARGET_ENVIRONMENT="${{ github.event.inputs.target_environment }}"
+          fi
+
+          if [[ -n "${{ github.event.inputs.image_tag }}" ]]; then
+            IMAGE_TAG="${{ github.event.inputs.image_tag }}"
+            SHOULD_BUILD="false"
+            echo "Promovendo tag existente ${IMAGE_TAG} para ${TARGET_ENVIRONMENT}"
+          else
+            COMMIT_SHA="${{ github.sha }}"
+            IMAGE_TAG="${COMMIT_SHA:0:8}"
+            SHOULD_BUILD="true"
+            echo "Gerando nova imagem ${IMAGE_TAG} para ${TARGET_ENVIRONMENT}"
+          fi
+
+          echo "image-tag=${IMAGE_TAG}" >> "$GITHUB_OUTPUT"
+          echo "should-build=${SHOULD_BUILD}" >> "$GITHUB_OUTPUT"
+          echo "target-environment=${TARGET_ENVIRONMENT}" >> "$GITHUB_OUTPUT"
+
+  build:
+    name: Build Image
+    runs-on: self-hosted
+    needs: prepare
+    if: needs.prepare.outputs.should-build == 'true'
+    steps:
+      - name: Checkout codigo
+        uses: actions/checkout@v6.0.2
+
+      - name: Setup Docker Buildx
+        uses: docker/setup-buildx-action@v4.0.0
+        with:
+          name: chatwoot-builder
+          driver: docker-container
+          keep-state: true
+          cleanup: false
+
+      - name: Login to Harbor Registry
+        uses: docker/login-action@v4.1.0
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ secrets.HARBOR_USERNAME }}
+          password: ${{ secrets.HARBOR_PASSWORD }}
+
+      - name: Build e carregar imagem local
+        uses: docker/build-push-action@v7.0.0
+        with:
+          context: .
+          file: ./docker/Dockerfile
+          platforms: linux/amd64
+          load: true
+          provenance: false
+          tags: |
+            ${{ env.TARGET_IMAGE_REPOSITORY }}:${{ needs.prepare.outputs.image-tag }}
+            ${{ env.TARGET_IMAGE_REPOSITORY }}:latest
+          labels: |
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          builder: chatwoot-builder
+
+      - name: Exibir tamanho da imagem local
+        run: |
+          set -euo pipefail
+
+          IMAGE_BASE="${{ env.TARGET_IMAGE_REPOSITORY }}"
+          IMAGE_TAG="${{ needs.prepare.outputs.image-tag }}"
+
+          IMAGE_SIZE_BYTES="$(docker image inspect "${IMAGE_BASE}:${IMAGE_TAG}" --format '{{.Size}}')"
+          IMAGE_SIZE_MIB="$(awk "BEGIN { printf \"%.1f\", ${IMAGE_SIZE_BYTES}/1024/1024 }")"
+          IMAGE_SIZE_GIB="$(awk "BEGIN { printf \"%.2f\", ${IMAGE_SIZE_BYTES}/1024/1024/1024 }")"
+
+          echo "Imagem gerada: ${IMAGE_BASE}:${IMAGE_TAG}"
+          echo "Tamanho: ${IMAGE_SIZE_BYTES} bytes (${IMAGE_SIZE_MIB} MiB / ${IMAGE_SIZE_GIB} GiB)"
+
+      - name: Push das tags para o Harbor
+        run: |
+          set -euo pipefail
+
+          IMAGE_BASE="${{ env.TARGET_IMAGE_REPOSITORY }}"
+          IMAGE_TAG="${{ needs.prepare.outputs.image-tag }}"
+
+          docker image inspect "${IMAGE_BASE}:${IMAGE_TAG}" >/dev/null
+          docker image inspect "${IMAGE_BASE}:latest" >/dev/null
+
+          docker push "${IMAGE_BASE}:${IMAGE_TAG}"
+          docker push "${IMAGE_BASE}:latest"
+
+      - name: Limpar imagem local do runner
+        if: always()
+        run: |
+          set -euo pipefail
+
+          IMAGE_BASE="${{ env.TARGET_IMAGE_REPOSITORY }}"
+          IMAGE_TAG="${{ needs.prepare.outputs.image-tag }}"
+
+          docker image inspect "${IMAGE_BASE}:${IMAGE_TAG}" >/dev/null 2>&1 && docker image rm "${IMAGE_BASE}:${IMAGE_TAG}" >/dev/null
+          docker image inspect "${IMAGE_BASE}:latest" >/dev/null 2>&1 && docker image rm "${IMAGE_BASE}:latest" >/dev/null
+
+  update-gitops:
+    name: Update GitOps Repository
+    runs-on: self-hosted
+    needs:
+      - prepare
+      - build
+    if: always() && needs.prepare.result == 'success' && (needs.build.result == 'success' || needs.build.result == 'skipped')
+    steps:
+      - name: Configurar Git
+        run: |
+          git config --global user.name "Lumia Bot"
+          git config --global user.email "bot@lumia.local"
+
+      - name: Validar segredo do GitOps
+        run: |
+          if [[ -z "${{ secrets.GITOPS_TOKEN }}" ]]; then
+            echo "Segredo GITOPS_TOKEN nao configurado." >&2
+            exit 1
+          fi
+
+      - name: Checkout GitOps Repository
+        uses: actions/checkout@v6.0.2
+        with:
+          repository: ${{ env.GITOPS_REPOSITORY }}
+          token: ${{ secrets.GITOPS_TOKEN }}
+          path: gitops
+
+      - name: Atualizar repository e tag nos values
+        run: |
+          set -euo pipefail
+
+          cd gitops
+
+          IMAGE_TAG="${{ needs.prepare.outputs.image-tag }}"
+          TARGET_ENV="${{ needs.prepare.outputs.target-environment }}"
+          IMAGE_REPOSITORY="${{ env.TARGET_IMAGE_REPOSITORY }}"
+          FILE="tenants/lumia/chatwoot/${TARGET_ENV}/values/chatwoot.values.yaml"
+
+          if [[ ! -f "$FILE" ]]; then
+            echo "Arquivo nao encontrado: $FILE" >&2
+            exit 1
+          fi
+
+          echo "Atualizando $FILE..."
+          cp "$FILE" "$FILE.backup"
+          sed -i "/^image:/,/^[^ ]/{/repository:/ s|repository: .*|repository: ${IMAGE_REPOSITORY}|;/tag:/ s|tag: .*|tag: \"${IMAGE_TAG}\"|}" "$FILE"
+          diff -u "$FILE.backup" "$FILE" || true
+          rm "$FILE.backup"
+
+          if git diff --quiet; then
+            echo "Sem mudancas para commit"
+          else
+            git add "$FILE"
+            git commit -m "chatwoot:${IMAGE_TAG} -> ${TARGET_ENV}"
+            git push
+          fi
